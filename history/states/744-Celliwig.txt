@@ -1,0 +1,16 @@
+state={
+	id=744
+	name="STATE_744"
+
+	history={
+		owner = C01
+		add_core_of = C01
+	}
+
+	provinces={
+		60 61 63 84 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

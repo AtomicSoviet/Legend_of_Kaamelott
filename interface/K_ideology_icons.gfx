@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_barbarian_group"
+		texturefile = "gfx/interface/ideologies/barbarian_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_clanic_group"
+		texturefile = "gfx/interface/ideologies/clanic_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_kingdom_group"
+		texturefile = "gfx/interface/ideologies/kingdom_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_roman_group"
+		texturefile = "gfx/interface/ideologies/roman_group.dds"
+	}
+}

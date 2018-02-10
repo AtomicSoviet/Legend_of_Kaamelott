@@ -1,0 +1,149 @@
+ideologies = {
+	roman = {
+		types = {
+			western_roman = {
+			}
+
+			eastern_roman = {
+			}
+
+			britto_roman = {
+			}
+
+			gallo_roman = {
+			}
+
+			germano_roman = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ROMAN_1"
+			"FACTION_NAME_ROMAN_2"
+			"FACTION_NAME_ROMAN_3"
+			"FACTION_NAME_ROMAN_4"
+			"FACTION_NAME_ROMAN_5"
+		}
+
+		color = { 185 0 0 }
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		ai_democratic = yes
+	}
+
+	barbarian = {
+		types = {
+			germanic = {
+			}
+
+			nordic = {
+			}
+
+			slavic = {
+			}
+
+			mediteranean = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_BARBARIAN_1"
+			"FACTION_NAME_BARBARIAN_2"
+			"FACTION_NAME_BARBARIAN_3"
+			"FACTION_NAME_BARBARIAN_4"
+			"FACTION_NAME_BARBARIAN_5"
+		}
+
+		color = { 54 50 39 }
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		ai_fascist = yes
+	}
+
+	clanic = {
+		types = {
+			despotic = {
+			}
+
+			communitarian = {
+			}
+
+			decentralized = {
+			}
+
+			druidic = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_CLANIC_1"
+			"FACTION_NAME_CLANIC_2"
+			"FACTION_NAME_CLANIC_3"
+			"FACTION_NAME_CLANIC_4"
+			"FACTION_NAME_CLANIC_5"
+		}
+
+		color = { 62 97 37 }
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_send_volunteers = yes
+		}
+
+		ai_fascist = yes
+	}
+
+	kingdom = {
+		types = {
+			authoritarian = {
+			}
+
+			traditional = {
+			}
+
+			progressive = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_KINGDOM_1"
+			"FACTION_NAME_KINGDOM_2"
+			"FACTION_NAME_KINGDOM_3"
+			"FACTION_NAME_KINGDOM_4"
+			"FACTION_NAME_KINGDOM_5"
+		}
+
+		color = { 93 68 17 }
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		ai_neutral = yes
+	}
+}

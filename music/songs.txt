@@ -1,0 +1,240 @@
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+# PEACE SONGS ##################
+music = {
+	song = "arthurs_doubts"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "arthurus_rex"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "dream_of_a_wanted_future"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}
+}
+
+music = {
+	song = "full_taichi"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "camelot"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "quest_for_the_graal"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "lone_chords"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "orcanian_plot"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "rebirth_of_a_legend"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "the_lone_knight"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "the_round_table"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "the_semi_crunchy_clan"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "call_for_adventure"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "excalibur"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "moorish_sounds"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "the_enchanter"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+# WAR SONGS ####################
+
+music = {
+	song = "bringer_of_destruction"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "looming_disaster"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "the_response"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+		}		
+	}	
+}

@@ -1,0 +1,16 @@
+state={
+	id=751
+	name="STATE_751"
+
+	history={
+		owner = GAL
+		add_core_of = GAL
+	}
+	
+	provinces={
+		89 91 133 134 135 137 138 139 140 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

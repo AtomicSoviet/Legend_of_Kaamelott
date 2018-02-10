@@ -1,0 +1,22 @@
+﻿l_english:
+  roman:0 "Roman"
+  roman_desc:0 "Roman Government"
+  roman_drift:0 "Romanization"
+
+      western_roman:0 "Western Roman"
+      western_roman_desc:0 "Western Roman"
+
+  barbarian:0 "Barbarian"
+  barbarian_desc:0 "Barbarian Tribe"
+  barbarian_drift:0 "Barbarianisation"
+
+      communitarian:0 "Communitarian"
+      communitarian_desc:0 "Communitarian clanic leaders tends to put the well being of the people he oversees over power, or wealth. Often loosely united, the nation he rules is just a common understanding of the territory he controls."
+
+  clanic:0 "Clanic"
+  clanic_desc:0 "Clanic Organization"
+  clanic_drift:0 "Clanification"
+
+  kingdom:0 "Kingdom"
+  kingdom_desc:0 "Royal Court"
+  kingdom_drift:0 "Centralization"

@@ -1,0 +1,8 @@
+BRI = "countries/Roman_Britain.txt"
+CNW	= "countries/Cornwall.txt"
+GAL	= "countries/Pays_de_Galles.txt"
+TTG	= "countries/Tintagel.txt"
+
+# CLANS
+
+C01 = "countries/Kelliwich.txt"
