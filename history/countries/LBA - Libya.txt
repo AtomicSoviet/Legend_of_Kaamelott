@@ -1,4 +1,4 @@
-﻿capital = 448
+﻿capital = 1 #448
 
 # Starting tech
 set_technology = {
@@ -62,25 +62,25 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 25
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 20
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 50
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -89,8 +89,8 @@ set_politics = {
 create_country_leader = {
 	name = "Bashir es Sadawi"
 	desc = ""
-	picture = "Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
+	picture = "Portrait_Arabia_Generic_roman1.dds"
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -100,7 +100,7 @@ create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -110,7 +110,7 @@ create_country_leader = {
 	name = "Idris Senussi"
 	desc = ""
 	picture = "Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -119,8 +119,8 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hassan as-Senussi"
 	desc = ""
-	picture = "Portrait_Arabia_Generic_communism1.dds"
-	ideology = leninism
+	picture = "Portrait_Arabia_Generic_clanic1.dds"
+	ideology = despotic
 	traits = {
 		#
 	}

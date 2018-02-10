@@ -1,4 +1,4 @@
-﻿capital = 553
+﻿capital = 1 #553
 
 # Starting tech
 set_technology = {
@@ -62,25 +62,25 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 50
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 10
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 10
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 30
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
-	ideology = liberalism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -99,8 +99,8 @@ create_country_leader = {
 create_country_leader = {
 	name = "Pierre Gemayel"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_fascism1.dds"
-	ideology = fascism_ideology
+	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_barbarian1.dds"
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -110,7 +110,7 @@ create_country_leader = {
 	name = "Melick Yarad"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Rami Sarraff"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}

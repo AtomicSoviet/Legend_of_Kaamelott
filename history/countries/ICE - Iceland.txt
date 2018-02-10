@@ -1,4 +1,4 @@
-﻿capital = 100 #Iceland
+﻿capital = 1 #100 #Iceland
 
 oob = "ICE_1936"
 
@@ -79,20 +79,20 @@ set_national_unity = 0.85
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 96
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 2
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -102,24 +102,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 84
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 2
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 2
 			}
 
-			neutrality = {
+			kingdom = {
 				popularity = 12
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -142,7 +142,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -164,7 +164,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}

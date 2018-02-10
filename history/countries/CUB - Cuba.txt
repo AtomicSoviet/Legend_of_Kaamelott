@@ -1,4 +1,4 @@
-﻿capital = 315
+﻿capital = 1 #315
 
 oob = "CUB_1936"
 
@@ -61,21 +61,21 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 98
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "GFX_portrait_cuba_jose_barnet"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -96,21 +96,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 98
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 2
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1936.1.10"
 		election_frequency = 48  
 		elections_allowed = yes

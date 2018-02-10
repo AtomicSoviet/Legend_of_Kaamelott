@@ -1,4 +1,4 @@
-﻿capital = 611
+﻿capital = 1 #611
 
 oob = "MEN_1936"
 
@@ -52,26 +52,26 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 			banned = yes
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 80
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			banned = yes
 		}
 
-		neutrality = {
+		kingdom = {
 			popularity = 20
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = barbarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

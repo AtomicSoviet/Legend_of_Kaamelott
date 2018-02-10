@@ -1,4 +1,4 @@
-﻿capital = 329
+﻿capital = 1 #329
 
 oob = "TAN_1936"
 
@@ -57,23 +57,23 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 			banned = yes
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 			banned = yes
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 100
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = clanic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -94,23 +94,23 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 0
 				banned = yes
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 				banned = yes
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 100
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = communism
+		ruling_party = clanic
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

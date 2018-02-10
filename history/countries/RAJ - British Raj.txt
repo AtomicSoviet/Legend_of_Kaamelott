@@ -1,4 +1,4 @@
-﻿capital = 439
+﻿capital = 1 #439
 
 oob = "RAJ_1936"
 
@@ -118,24 +118,24 @@ set_cosmetic_tag = RAJ_UK # British Raj
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 17
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 2
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 1
 		}
 
-		neutrality = {
+		kingdom = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		
 	}
@@ -169,7 +169,7 @@ create_country_leader = {
 	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
 	picture = "GFX_RAJ_krishna_pillai"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		
 	}

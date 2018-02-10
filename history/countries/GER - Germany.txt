@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 1 #64
 
 oob = "GER_1936"
 
@@ -100,7 +100,7 @@ create_import = {
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = barbarian 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -203,21 +203,21 @@ create_import = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 20
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 60
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 20
 			banned = yes #default is no
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = barbarian
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -241,7 +241,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = germanic
 	traits = {
 		dictator
 	}
@@ -252,7 +252,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 	}
 }
@@ -262,7 +262,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		stalins_puppet
 		exiled
@@ -286,7 +286,7 @@ create_country_leader = {
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
-#	ideology = stalinism
+#	ideology = despotic
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet

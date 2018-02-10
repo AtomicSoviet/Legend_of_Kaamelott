@@ -1,4 +1,4 @@
-﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+﻿capital = 1 #670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
 
 oob = "LAO_1936"
 
@@ -43,18 +43,18 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 25
 		}
 
-#		fascism = {
+#		barbarian = {
 #		
 #		}
 		
-		communism = {
+		clanic = {
 			popularity = 35
 		}
-		neutrality = {
+		kingdom = {
 			popularity = 40
 		}
 	}
@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		
 	}
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		
 	}
@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		
 	}

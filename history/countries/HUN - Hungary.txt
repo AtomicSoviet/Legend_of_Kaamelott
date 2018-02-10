@@ -1,4 +1,4 @@
-﻿capital = 43
+﻿capital = 1 #43
 
 oob = "HUN_1936"
 
@@ -125,21 +125,21 @@ if = {
 
 set_politics = {
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 25
 		}
-		fascism = {
+		barbarian = {
 			popularity = 31
 		}
-		neutrality = {
+		kingdom = {
 			popularity = 44
 		}
-		communism = {
+		clanic = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -168,14 +168,14 @@ if = {
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = authoritarian
 		}
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = germanic
 		}
 	}
 }
@@ -185,7 +185,7 @@ create_country_leader = {
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -214,7 +214,7 @@ create_country_leader = {
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = germanic
 			traits = {
 				anti_communist
 			}
@@ -225,20 +225,20 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 27
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 70
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 3
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = barbarian
 		last_election = "1939.5.29"
 		election_frequency = 48
 		elections_allowed = yes

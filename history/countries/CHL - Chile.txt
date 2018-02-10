@@ -1,4 +1,4 @@
-﻿capital = 279
+﻿capital = 1 #279
 
 oob = "CHL_1936"
 
@@ -78,21 +78,21 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 98
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
@@ -103,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -113,21 +113,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 100
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 0
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1938.10.25"
 		election_frequency = 48
 		elections_allowed = yes
@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -161,7 +161,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}

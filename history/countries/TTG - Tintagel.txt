@@ -1,0 +1,50 @@
+capital = 53
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C01_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 10
+        }
+        barbarian = {
+          popularity = 0
+        }
+        clanic = {
+          popularity = 25
+        }
+        kingdom = {
+          popularity = 65
+        }
+      }
+
+  	ruling_party = kingdom
+  }
+
+  create_country_leader = {
+    name = "Anicent Council"
+    desc = ""
+    picture = "Portrait_TTG_Anicent_Council.dds"
+    expire = "999.1.1"
+    ideology = communitarian
+    traits = {
+    }
+  }
+
+  create_country_leader = {
+  	name = "Dame Ygerne"
+  	desc = ""
+  	picture = "Portrait_TTG_Dame_Ygerne.dds"
+  	expire = "999.1.1"
+  	ideology = traditional
+  	traits = {
+  	}
+  }
+}

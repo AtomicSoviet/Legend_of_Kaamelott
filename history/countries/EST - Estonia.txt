@@ -1,4 +1,4 @@
-﻿capital = 13
+﻿capital = 1 #13
 
 oob = "EST_1936"
 
@@ -79,25 +79,25 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 20
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 15
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
@@ -107,25 +107,25 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 20
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 15
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 5
 				#banned = no #default is no
 			}
 			
-			neutrality = { 
+			kingdom = { 
 				popularity = 60
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = kingdom
 		last_election = "1938.2.25"
 		election_frequency = 48
 		elections_allowed = no
@@ -137,7 +137,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "GFX_Portrait_estonia_konstantin_pats"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}

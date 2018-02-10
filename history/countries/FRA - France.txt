@@ -1,4 +1,4 @@
-﻿capital = 16
+﻿capital = 1 #16
 
 oob = "FRA_1936"
 
@@ -141,20 +141,20 @@ set_national_unity = 0.4
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 69
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 1
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 30
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -175,7 +175,7 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		
 	}
@@ -197,7 +197,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "Portrait_France_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = 	despotic
 	traits = {
 		
 	}
@@ -208,7 +208,7 @@ create_country_leader = {
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 	picture = "Portrait_France_Philippe_Petain.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		
 	}

@@ -1,4 +1,4 @@
-﻿capital = 314
+﻿capital = 1 #314
 
 oob = "ELS_1936"
 
@@ -59,22 +59,22 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 			banned = yes #default is no
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 100
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			banned = yes #default is no
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = barbarian
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = yes
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
 	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -95,22 +95,22 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 0
 				banned = yes #default is no
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 100
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 0
 				banned = yes #default is no
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = barbarian
 		last_election = "1939.1.3"
 		election_frequency = 48
 		elections_allowed = yes

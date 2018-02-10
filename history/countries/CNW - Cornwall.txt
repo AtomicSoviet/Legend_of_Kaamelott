@@ -1,0 +1,40 @@
+capital = 37
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C01_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 5
+        }
+        barbarian = {
+          popularity = 0
+        }
+        clanic = {
+          popularity = 20
+        }
+        kingdom = {
+          popularity = 75
+        }
+      }
+
+  	ruling_party = kingdom
+  }
+
+  create_country_leader = {
+  	name = "Cador, Duke of Cornwall"
+  	desc = ""
+  	picture = "Portrait_CNW_Elias_of_Kelliwich.dds"
+  	expire = "999.1.1"
+  	ideology = traditional
+  	traits = {
+  	}
+  }
+}

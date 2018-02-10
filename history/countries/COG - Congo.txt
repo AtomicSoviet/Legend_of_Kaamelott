@@ -1,4 +1,4 @@
-﻿capital = 295
+﻿capital = 1 #295
 
 oob = "COG_1936"
 
@@ -49,25 +49,25 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -78,7 +78,7 @@ create_country_leader = {
 	name = "François Tolenga"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		compassionate_gentleman
 	}
@@ -88,7 +88,7 @@ create_country_leader = {
 	name = "Lumumba Lomendja"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		silent_workhorse
 	}
@@ -99,7 +99,7 @@ create_country_leader = {
 	name = "David Manera"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		
 	}
@@ -111,25 +111,25 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 		
-		ruling_party = neutrality
+		ruling_party = kingdom
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

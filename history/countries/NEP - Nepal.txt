@@ -1,4 +1,4 @@
-﻿capital = 323
+﻿capital = 1 #323
 
 oob = "NEP_1936"
 
@@ -58,24 +58,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_JUDDHA_RANA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -96,24 +96,24 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

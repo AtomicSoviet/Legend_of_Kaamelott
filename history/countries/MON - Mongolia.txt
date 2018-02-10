@@ -1,4 +1,4 @@
-﻿capital = 330
+﻿capital = 1 #330
 
 oob = "MON_1936"
 
@@ -61,23 +61,23 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 			banned = yes
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 			banned = yes
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 100
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = clanic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -86,9 +86,9 @@ set_politics = {
 create_country_leader = {
 	name = "Anandyn Amar"
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_clanic.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -103,23 +103,23 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 0
 				banned = yes
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 				banned = yes
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 100
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = communism
+		ruling_party = clanic
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -130,7 +130,7 @@ create_country_leader = {
 		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 		expire = "1965.1.1"
-		ideology = stalinism
+		ideology = despotic
 		traits = {
 			#
 		}

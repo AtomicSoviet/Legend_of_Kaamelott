@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 1 #64
 
 # Starting tech
 set_technology = {
@@ -117,21 +117,21 @@ set_national_unity = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 30
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 10
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 60
 			banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = clanic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -147,7 +147,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		political_dancer		
 	}
@@ -158,7 +158,7 @@ create_country_leader = {
 #	desc = ""
 #	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 #	expire = "1965.1.1"
-#	ideology = conservatism
+#	ideology = western_roman
 #	traits = {
 #	}
 #}
@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_PIECK_DESC"	 
 	picture = gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		stalins_puppet
 		exiled
@@ -192,7 +192,7 @@ create_country_leader = {
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
-#	ideology = stalinism
+#	ideology = despotic
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet

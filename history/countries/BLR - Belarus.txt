@@ -1,4 +1,4 @@
-﻿capital = 206 #Minsk
+﻿capital = 1 #206 #Minsk
 
 oob = "BLR_1936"
 
@@ -40,19 +40,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 15
 		}
 
-		neutrality = {
+		kingdom = {
 			popularity = 20
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 60
 		}
 
-		fascism = { 
+		barbarian = { 
 			popularity = 5
 		}
 	}
@@ -74,7 +74,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
     expire = "1965.1.1"
-    ideology = fascism_ideology
+    ideology = germanic
     traits = {
         #
     }
@@ -85,7 +85,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
     expire = "1965.1.1"
-    ideology = stalinism
+    ideology = despotic
     traits = {
         #
     }

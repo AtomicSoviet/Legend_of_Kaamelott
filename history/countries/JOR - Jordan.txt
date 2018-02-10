@@ -1,4 +1,4 @@
-﻿capital = 455
+﻿capital = 1 #455
 
 # Starting tech
 set_technology = {
@@ -62,25 +62,25 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 25
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 20
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 50
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Hashim Kheir"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -99,8 +99,8 @@ create_country_leader = {
 create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds"
-	ideology = fascism_ideology
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_barbarian1.dds"
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -110,7 +110,7 @@ create_country_leader = {
 	name = "Abdullah bin al-Hussein"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 	name = "Fu'ad Nassar"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}

@@ -1,4 +1,4 @@
-﻿capital = 302
+﻿capital = 1 #302
 
 oob = "BOL_1936"
 
@@ -68,24 +68,24 @@ set_country_flag = monroe_doctrine
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = yes
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 	expire = "1965.1.1"
-	ideology = despotism # liberalism, personally, but puppet for military
+	ideology = authoritarian # western_roman, personally, but puppet for military
 	traits = {
 		#
 	}
@@ -117,24 +117,24 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = yes

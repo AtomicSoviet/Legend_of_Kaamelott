@@ -1,4 +1,4 @@
-﻿capital = 554
+﻿capital = 1 #554
 
 # Starting tech
 set_technology = {
@@ -62,21 +62,21 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 80
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 20
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	name = "Rudolf Szabó"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -116,7 +116,7 @@ create_country_leader = {
 	name = "Shmuel Mikunis"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}

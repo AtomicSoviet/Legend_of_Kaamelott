@@ -1,4 +1,4 @@
-﻿capital = 293
+﻿capital = 1 #293
 
 oob = "YEM_1936"
 
@@ -53,25 +53,25 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_IMAM_YAHYA_DESC"
 	picture = "GFX_portrait_yemen_imam_yahya"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -92,25 +92,25 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 100
 		}
 	}
 	
-		ruling_party = neutrality
+		ruling_party = kingdom
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

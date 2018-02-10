@@ -1,4 +1,4 @@
-﻿capital = 105 # Montenegro
+﻿capital = 1 #105 # Montenegro
 
 oob = "MON_1936"
 
@@ -23,13 +23,13 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
+		barbarian = { 
 			popularity = 33
 		}
-		neutrality = { 
+		kingdom = { 
 			popularity = 33
 		}		
-		communism = {
+		clanic = {
 			popularity = 34
 		}
 	}
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		
 	}
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		
 	}

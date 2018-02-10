@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 1 #219
 
 oob = "SOV_1936"
 
@@ -206,20 +206,20 @@ set_national_unity = 0.55
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 10 #shared between all parties, should add to 100
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 2
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 88
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = clanic
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -241,7 +241,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		
 	}
@@ -252,7 +252,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		
 	}

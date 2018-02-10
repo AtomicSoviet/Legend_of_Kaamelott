@@ -1,4 +1,4 @@
-﻿capital = 37
+﻿capital = 1 #37
 
 oob = "DEN_1936"
 
@@ -80,20 +80,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 97
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 1
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
@@ -103,20 +103,20 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 97
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 1
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 2
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -141,7 +141,7 @@ create_country_leader = {
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = "POLITICS_AKSEL_LARSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}

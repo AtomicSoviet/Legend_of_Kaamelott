@@ -1,4 +1,4 @@
-﻿capital = 318
+﻿capital = 1 #318
 
 oob = "HAI_1936"
 
@@ -62,21 +62,21 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 100
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_STENIO_VINCENT_DESC"
 	picture = "GFX_portrait_haiti_stenio_vincent"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -98,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -108,21 +108,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 100
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 0
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

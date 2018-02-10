@@ -1,4 +1,4 @@
-﻿capital = 10
+﻿capital = 1 #10
 
 oob = "POL_1936"
 
@@ -132,24 +132,24 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 18
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 15
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 65
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -159,24 +159,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 13
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 7
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 2
 			}
 			
-			neutrality = { 
+			kingdom = { 
 				popularity = 78
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = kingdom
 		last_election = "1935.9.8"
 		election_frequency = 36
 		elections_allowed = no
@@ -210,7 +210,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -221,7 +221,7 @@ create_country_leader = {
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
 	picture = "GFX_POL_wincenty_witos"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}

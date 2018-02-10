@@ -1,10 +1,9 @@
-﻿capital = 7
+﻿capital = 1 #7
 
 oob = "HOL_1936"
 
 set_research_slots = 3
 
-puppet = INS
 
 set_technology = {
 	infantry_weapons = 1
@@ -105,20 +104,20 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 93
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 4
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 3
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -132,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
 	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -143,7 +142,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_MUSSERT_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -154,7 +153,7 @@ create_country_leader = {
 	desc = "POLITICS_LOU_DE_VISSER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}

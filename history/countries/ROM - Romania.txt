@@ -1,4 +1,4 @@
-﻿capital = 46
+﻿capital = 1 #46
 
 oob = "ROM_1936"
 
@@ -32,7 +32,7 @@ if = {
 	give_guarantee = GRE
 	give_guarantee = TUR
 }
-add_ideas = neutrality_idea
+add_ideas = kingdom_idea
 
 #Kick off kings crazy life
 if = {
@@ -51,7 +51,7 @@ if = {
 set_convoys = 10
 1939.1.1 = {
 	
-	remove_ideas = neutrality_idea
+	remove_ideas = kingdom_idea
 
 	add_political_power = 1198
 	if = {
@@ -90,7 +90,7 @@ set_convoys = 10
 			desc = "POLITICS_CAROL_II_DESC"
 			picture = GFX_Portrait_romania_Carol_II			
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = authoritarian
 			traits = {
 				hedonist
 				camarilla_leader
@@ -167,24 +167,24 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 20
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 18
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -194,24 +194,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 20
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 35
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 2
 			}
 			
-			neutrality = { 
+			kingdom = { 
 				popularity = 43
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = kingdom
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
@@ -234,7 +234,7 @@ create_country_leader = {
 	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
 	picture = "Portrait_Romania_Constantin_Parhon.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -245,7 +245,7 @@ create_country_leader = {
 	desc = "POLITICS_ARMAND_CALINESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -256,7 +256,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -267,7 +267,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}

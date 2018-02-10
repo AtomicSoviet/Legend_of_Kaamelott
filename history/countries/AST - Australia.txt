@@ -1,4 +1,4 @@
-﻿capital = 285
+﻿capital = 1 #285
 
 oob = "AST_1936"
 
@@ -120,21 +120,21 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 98
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "POLITICS_ERIC_CAMPBELL_DESC"
 	picture = "GFX_AST_eric_campbell"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_DIXON_DESC"
 	picture = "GFX_AST_richard_dixon"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -189,7 +189,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Australia_Rod_Hull.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -201,21 +201,21 @@ set_convoys = 100
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 99
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 1
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1937.10.23"
 		election_frequency = 36
 		elections_allowed = yes

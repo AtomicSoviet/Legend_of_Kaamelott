@@ -1,4 +1,4 @@
-﻿capital = 325
+﻿capital = 1 #325
 oob = "YUN_1936"
 
 set_technology = {
@@ -50,25 +50,25 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 20
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		neutrality = {
+		kingdom = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -79,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_LONG_YUN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian
 	traits = {
 		#
 	}
@@ -89,25 +89,25 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		roman = { 
 			popularity = 0
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 20
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		neutrality = {
+		kingdom = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

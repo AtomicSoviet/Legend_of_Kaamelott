@@ -1,4 +1,4 @@
-﻿capital = 6
+﻿capital = 1 #6
 
 oob = "BEL_1936"
 
@@ -78,20 +78,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 83
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 11
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 6
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -101,20 +101,20 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 87
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 8
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 5
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -140,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = anarchist_clanic
 	traits = {
 		#
 	}

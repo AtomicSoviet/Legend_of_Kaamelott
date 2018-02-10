@@ -1,4 +1,4 @@
-﻿capital = 11
+﻿capital = 1 #11
 
 oob = "LIT_1936"
 
@@ -73,24 +73,24 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 30
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 15
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 15
 		}
 		
-		neutrality = { 
+		kingdom = { 
 			popularity = 50
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = kingdom
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
@@ -100,24 +100,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 30
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 15
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 15
 			}
 			
-			neutrality = { 
+			kingdom = { 
 				popularity = 50
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = kingdom
 		last_election = "1936.6.10"
 		election_frequency = 120
 		elections_allowed = no
@@ -140,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -151,7 +151,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}

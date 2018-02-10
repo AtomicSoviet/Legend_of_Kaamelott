@@ -1,4 +1,4 @@
-﻿capital = 9
+﻿capital = 1 #9
 
 oob = "CZE_1936"
 
@@ -23,24 +23,24 @@ set_research_slots = 3
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 65
 		}
 
-		neutrality = { 
+		kingdom = { 
 			popularity = 20
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 5
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 10
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
 	picture = "Portrait_Czech_Klement_Gottwald.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotic
 	traits = {
 		#
 	}

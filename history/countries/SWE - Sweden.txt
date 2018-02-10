@@ -1,4 +1,4 @@
-﻿capital = 141	
+﻿capital = 1 #141	
 
 oob = "SWE_1936"
 
@@ -6,7 +6,7 @@ set_research_slots = 3
 
 add_ideas = {
 	en_svensk_tiger
-	neutrality_idea
+	kingdom_idea
 }
 
 
@@ -92,25 +92,25 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 75
 		}
 
-		neutrality = {
+		kingdom = {
 			popularity  = 14
 		}
 
-		communism = {
+		clanic = {
 			popularity = 8
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 3
 		}
 		
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
@@ -120,25 +120,25 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 85
 			}
 
-			neutrality = {
+			kingdom = {
 				popularity  = 12
 			}
 
-			communism = {
+			clanic = {
 				popularity = 4
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 1
 			}
 			
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = yes
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -178,7 +178,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}

@@ -1,4 +1,4 @@
-﻿capital = 2
+﻿capital = 1 #2
 
 oob = "ITA_1936"
 
@@ -148,20 +148,20 @@ set_national_unity = 0.6
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 22
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 76
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = barbarian
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -175,7 +175,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_Italy_Benito_Mussolini.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		
 	}

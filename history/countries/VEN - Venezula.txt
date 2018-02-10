@@ -1,4 +1,4 @@
-﻿capital = 307
+﻿capital = 1 #307
 
 oob = "VEN_1936"
 
@@ -64,21 +64,21 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 5
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 80
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 15
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = barbarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -89,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
 	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -100,7 +100,7 @@ create_country_leader = {
 	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}
@@ -110,21 +110,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 5
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 80
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 15
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = barbarian
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

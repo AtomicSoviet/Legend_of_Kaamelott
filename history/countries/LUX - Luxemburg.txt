@@ -1,4 +1,4 @@
-﻿capital = 8
+﻿capital = 1 #8
 
 oob = "LUX_1936"
 
@@ -64,20 +64,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 92
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 3
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 5
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
@@ -87,20 +87,20 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 92
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 3
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 5
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1937.6.6"
 		election_frequency = 36
 		elections_allowed = yes
@@ -111,7 +111,7 @@ set_politics = {
 		desc = "POLITICS_PIERRE_DUPONG_DESC"
 		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = western_roman
 		traits = {
 			#
 		}
@@ -123,7 +123,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_BECH_DESC"
 	picture = "GFX_portrait_luxembourg_joseph_bech"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = western_roman
 	traits = {
 		#
 	}

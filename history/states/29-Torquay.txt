@@ -1,0 +1,15 @@
+state={
+	id=29
+	name="STATE_29"
+
+	history={
+		owner = CNW
+		add_core_of = CNW
+	}
+	
+	provinces={
+		194 195 196 197 199 200 240 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

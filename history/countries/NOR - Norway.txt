@@ -1,4 +1,4 @@
-﻿capital = 110
+﻿capital = 1 #110
 
 oob = "NOR_1936"
 
@@ -79,20 +79,20 @@ set_national_unity = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 96
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 2
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -102,24 +102,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 84
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 2
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 2
 			}
 
-			neutrality = {
+			kingdom = {
 				popularity = 12
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
@@ -142,7 +142,7 @@ create_country_leader = {
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = germanic
 	traits = {
 		#
 	}
@@ -164,7 +164,7 @@ create_country_leader = {
 	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		#
 	}

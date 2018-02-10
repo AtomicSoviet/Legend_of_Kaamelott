@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿capital = 1 #361
 
 oob = "USA_1936"
 
@@ -170,21 +170,21 @@ set_national_unity = 0.6
 set_politics = {
 
 	parties = {
-		democratic = { 
+		roman = { 
 			popularity = 99
 		}
 
-		fascism = {
+		barbarian = {
 			popularity = 0
 		}
 		
-		communism = {
+		clanic = {
 			popularity = 1
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = roman
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -211,21 +211,21 @@ set_autonomy = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			roman = { 
 				popularity = 99
 			}
 
-			fascism = {
+			barbarian = {
 				popularity = 0
 			}
 			
-			communism = {
+			clanic = {
 				popularity = 1
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = roman
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -237,7 +237,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = western_roman
 	traits = {
 		dislikes_germany
 	}
@@ -248,7 +248,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = germanic
 	traits = {
 		
 	}
@@ -259,7 +259,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotic
 	traits = {
 		
 	}
