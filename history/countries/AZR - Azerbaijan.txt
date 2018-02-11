@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = britto_roman
 	traits = {
 		
 	}
