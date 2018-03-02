@@ -1,1 +1,1 @@
-capital = 1 #2
+﻿capital = 1 #2

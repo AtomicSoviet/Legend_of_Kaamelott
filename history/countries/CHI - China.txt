@@ -1,1 +1,1 @@
-capital = 1 #613 # Nanjing
+﻿capital = 1 #613 # Nanjing
