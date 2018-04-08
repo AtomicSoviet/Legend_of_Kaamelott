@@ -1681,7 +1681,7 @@
 1681;8;15;248;sea;true;ocean;0
 1682;8;17;236;sea;false;ocean;0
 1683;8;18;5;land;false;plains;2
-1684;8;18;50;land;false;forest;6
+1684;8;18;50;land;false;forest;6	################################
 1685;8;18;155;land;false;forest;6
 1686;8;19;232;sea;true;ocean;0
 1687;8;20;240;sea;true;ocean;0
@@ -1762,7 +1762,7 @@
 1762;8;84;45;land;false;forest;6
 1763;8;84;195;land;false;forest;2
 1764;8;87;10;land;false;forest;2
-1765;8;87;160;land;false;forest;6
+1765;8;87;160;land;false;forest;6	########################
 1766;8;87;215;land;false;mountain;6
 1767;8;90;75;land;false;plains;2
 1768;8;90;225;land;false;forest;6
