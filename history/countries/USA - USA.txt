@@ -1,1 +1,1 @@
-capital = 1 #361
+﻿capital = 1 #361

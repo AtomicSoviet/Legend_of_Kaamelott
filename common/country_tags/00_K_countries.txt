@@ -1,7 +1,21 @@
+AQT = "countries/Aquitaine.txt"
+BNC = "countries/Benoic.txt"
 BRI = "countries/Roman_Britain.txt"
+BRT = "countries/Armorica.txt"
+BYZ = "countries/Byzantium.txt"
+CLD = "countries/Caledonia.txt"
 CNW	= "countries/Cornwall.txt"
+CRM = "countries/Carmelide.txt"
 GAL	= "countries/Pays_de_Galles.txt"
+GAN = "countries/Gaunes.txt"
+JUD = "countries/Judea.txt"
+LOG = "countries/Logres.txt"
+ORC = "countries/Orcania.txt"
+PCT = "countries/Picts.txt"
+SPQ = "countries/Rome.txt"
 TTG	= "countries/Tintagel.txt"
+VAN = "countries/Vannes.txt"
+VIK = "countries/Viking.txt"
 
 # CLANS
 

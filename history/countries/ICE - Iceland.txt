@@ -1,1 +1,1 @@
-capital = 1 #100 #Iceland
+﻿capital = 1 #100 #Iceland
