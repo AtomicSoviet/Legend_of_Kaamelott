@@ -1,6 +1,12 @@
 state={
 	id=10
 	name="STATE_10"
+
+	history={
+		owner = GAL
+		add_core_of = GAL
+	}
+	
 	provinces={
 		78 113 114 122 123 130 
 	}

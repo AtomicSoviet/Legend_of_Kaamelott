@@ -12,45 +12,35 @@ set_technology = {
   set_politics = {
       parties = {
         roman = {
-          popularity = 2
+          popularity = 0
         }
         barbarian = {
-          popularity = 13
+          popularity = 15
         }
         clanic = {
-          popularity = 65
+          popularity = 27
         }
         kingdom = {
-          popularity = 20
+          popularity = 58
         }
       }
 
-  	ruling_party = clanic
+  	ruling_party = kingdom
   }
 
   create_country_leader = {
-  	name = "Pellinor"
-  	desc = ""
-  	picture = "Portrait_GAL_Pellinor.dds"
-  	expire = "999.1.1"
-  	ideology = communitarian
-  	traits = {
-  	}
-  }
-
-  create_country_leader = {
-    name = "Pellinor"
+    name = "Goustan de Carmélide"
     desc = ""
-    picture = "Portrait_GAL_Pellinor.dds"
+    picture = "Portrait_CRM_Goustan.dds"
     expire = "999.1.1"
-    ideology = traditional
+    ideology = authoritarian
     traits = {
     }
   }
 
   create_corps_commander = {
-    name = "Perceval"
-    picture = "Portrait_GAL_Perceval.dds"
+    name = "Léodagan de Carmélide"
+    picture = "Portrait_CRM_Leodagan.dds"
     traits = { }
     skill = 2
   }

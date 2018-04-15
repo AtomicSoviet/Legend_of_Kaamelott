@@ -15,6 +15,33 @@ bookmarks = {
 			focuses = {
 			}
 		}
+
+		"CRM"={
+			history = "CRM_GATHERING_STORM_DESC"
+			ideology = kingdom
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"CLD"={
+			history = "CLD_GATHERING_STORM_DESC"
+			ideology = kingdom
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ORC"={
+			history = "ORC_GATHERING_STORM_DESC"
+			ideology = kingdom
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
 		"GAL"={
 			history = "GAL_GATHERING_STORM_DESC"
@@ -27,7 +54,7 @@ bookmarks = {
 
 		"TTG"={
 			history = "TTG_GATHERING_STORM_DESC"
-			ideology = clanic
+			ideology = kingdom
 			ideas = {
 			}
 			focuses = {

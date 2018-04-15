@@ -6,17 +6,59 @@
       western_roman:0 "Western Roman"
       western_roman_desc:0 "Western Roman"
 
+      eastern_roman:0 "Eastern Roman"
+      eastern_roman_desc:0 "Eastern Roman"
+
+      britto_roman:0 "Britto-Roman"
+      britto_roman_desc:0 "Britto-Roman"
+
+      gallo_roman:0 "Gallo-Roman"
+      gallo_roman_desc:0 "Gallo-Roman"
+
+      germano_roman:0 "Germano-Roman"
+      germano_roman_desc:0 "Germano-Roman"
+
   barbarian:0 "Barbarian"
   barbarian_desc:0 "Barbarian Tribe"
   barbarian_drift:0 "Barbarianisation"
 
-      communitarian:0 "Communitarian"
-      communitarian_desc:0 "Communitarian clanic leaders tends to put the well being of the people he oversees over power, or wealth. Often loosely united, the nation he rules is just a common understanding of the territory he controls."
+      germanic:0 "Germanic"
+      germanic_desc:0 "Germanic"
+
+      nordic:0 "Nordic"
+      nordic_desc:0 "Nordic"
+
+      slavic:0 "Slavic"
+      slavic_desc:0 "Slavic"
+
+      mediteranean:0 "Mediteranean"
+      mediteranean_desc:0 "Mediteranean"
 
   clanic:0 "Clanic"
   clanic_desc:0 "Clanic Organization"
   clanic_drift:0 "Clanification"
 
+      despotic:0 "Despotic"
+      despotic_desc:0 "Despotism is really self-explanatory. Here a ruler, often a warlord, controls a piece of land to exploit, and people to control to either wage war, bring food or gain wealth. They are very isolationist, and deals very occasionaly with the exterior."
+
+      communitarian:0 "Communitarian"
+      communitarian_desc:0 "Communitarian clanic leaders tends to put the well being of the people he oversees over power, or wealth. Often loosely united, the nation he rules is just a common understanding of the territory he controls."
+
+      decentralized:0 "Decentralized"
+      decentralized_desc:0 "Decentralized clans are not really a clan in itself. If communitarian societies still has a ruler that decides the overall direction of the clan, in a decentralized community the leader is just a figurehead for the possible meeting, the land being distributed to families to farm ther food, and to provide for them, in priority, and their close community."
+
+      druidic:0 "Druidic"
+      druidic_desc:0 "Druidic clans are a very special kind of clan. Nature centered, they really control this territory for the land it has, and not the people that live there. Druid don't often rule over land, as they prefer to live off nature, but sometime, one alchemist or enchanter might find an empty piece of land they can control, often with a forrest or around mountain, and they decides to make it their land to protect."
+
   kingdom:0 "Kingdom"
   kingdom_desc:0 "Royal Court"
   kingdom_drift:0 "Centralization"
+
+      authoritarian:0 "Authoritarian"
+      authoritarian_desc:0 "Authoritarian rulers are sometimes seen as the half-point between a clan chief and a lord. Often very brutal in its jugement, and often waging war, the monarch rules his land in an iron fist, and who dares his words often don't live very long."
+
+      traditional:0 "Traditional"
+      traditional_desc:0 "A traditional ruler sees his role in a very classical manner, a monarch that aims to protect his people against the exterior, a strong ruler that always think about the well-being and the best interest of its nation."
+
+      progressive:0 "Progressive"
+      progressive_desc:0 "Under the roman sphere, a new kind of ruler appeared. The progressiveness of the roman society and the advances of its science and military allows for a more peacefull and more protective kind of monarch. Even if they often are seen as weak, they tend to rule a way richer country, and with a great support by the people."

@@ -1,0 +1,15 @@
+state={
+	id=158
+	name="STATE_158"
+
+	history={
+		owner = PCT
+		add_core_of = PCT
+	}
+
+	provinces={
+		1057 1058 1059 1060 1061
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

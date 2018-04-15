@@ -1,0 +1,40 @@
+﻿capital = 15
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C03_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 0
+        }
+        barbarian = {
+          popularity = 0
+        }
+        clanic = {
+          popularity = 99
+        }
+        kingdom = {
+          popularity = 1
+        }
+      }
+
+  	ruling_party = clanic
+  }
+
+  create_country_leader = {
+  	name = "Ieuan"
+  	desc = ""
+  	picture = "Portrait_C03_Ieuan.dds"
+  	expire = "999.1.1"
+  	ideology = communitarian
+  	traits = {
+  	}
+  }
+}

@@ -12,46 +12,29 @@ set_technology = {
   set_politics = {
       parties = {
         roman = {
-          popularity = 2
+          popularity = 8
         }
         barbarian = {
-          popularity = 13
+          popularity = 2
         }
         clanic = {
-          popularity = 65
+          popularity = 13
         }
         kingdom = {
-          popularity = 20
+          popularity = 75
         }
       }
 
-  	ruling_party = clanic
+  	ruling_party = kingdom
   }
 
   create_country_leader = {
-  	name = "Pellinor"
+  	name = "Loth d'Orcanie"
   	desc = ""
-  	picture = "Portrait_GAL_Pellinor.dds"
+  	picture = "Portrait_ORC_Loth.dds"
   	expire = "999.1.1"
-  	ideology = communitarian
+  	ideology = authoritarian
   	traits = {
   	}
-  }
-
-  create_country_leader = {
-    name = "Pellinor"
-    desc = ""
-    picture = "Portrait_GAL_Pellinor.dds"
-    expire = "999.1.1"
-    ideology = traditional
-    traits = {
-    }
-  }
-
-  create_corps_commander = {
-    name = "Perceval"
-    picture = "Portrait_GAL_Perceval.dds"
-    traits = { }
-    skill = 2
   }
 }

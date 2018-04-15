@@ -20,3 +20,11 @@ VIK = "countries/Viking.txt"
 # CLANS
 
 C01 = "countries/Kelliwich.txt"
+C02 = "countries/Ddraig Goch.txt"
+C03 = "countries/Ieuan.txt"
+C04 = "countries/Afonydd.txt"
+C05 = "countries/Edenowen.txt"
+C06 = "countries/Lewelyn.txt"
+C07 = "countries/Ngogledd.txt"
+C08 = "countries/Planhigion Gwyrdd.txt"
+C09 = "countries/Wiht.txt"
