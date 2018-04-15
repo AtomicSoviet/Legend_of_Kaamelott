@@ -29,7 +29,7 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Frahn le Jeune"
+  	name = "Frahn III"
   	desc = ""
   	picture = "Portrait_C09_Frahn.dds"
   	expire = "999.1.1"
