@@ -1,0 +1,108 @@
+[REGISTRY_HOI4DIR] C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV
+[MOD_DIR] 
+[HOI4_DIR] C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV/
+[COMMON/IDEA_TAGS]
+[GFX]
+
+[FILE] C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV/interface/core.gfx
+[Line  1382] Empty KeyValue Pair :: [key] ; [location] bitmapfonts >> textspritetype[ name = largefloaterbutton ]
+[COMMON/SCRIPTED_TRIGGERS]
+[COMMON/IDEAS]
+[HISTORY/UNITS]
+[HISTORY/COUNTRIES]
+
+[FILE] history/countries/AQT - Aquitaine.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/BNC - Benoic.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/BRI - Roman Britain.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_BRI_Manius_Macrinus_Firmus.dds
+
+[FILE] history/countries/BRT - Armorica.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/BYZ - Byzantium.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/C01 - Kelliwich.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_C01_Elias_of_Kelliwich.dds
+
+[FILE] history/countries/CLD - Caledonia.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/CNW - Cornwall.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_CNW_Elias_of_Kelliwich.dds
+
+[FILE] history/countries/CRM - Carmelide.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/GAL - Pays de Galles.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/GAN - Gaunes.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/JUD - Judea.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/LOG - Logres.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/ORC - Orcania.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/PCT - Picts.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/SPQ - Rome.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/TTG - Tintagel.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_TTG_Anicent_Council.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_TTG_Dame_Ygerne.dds
+
+[FILE] history/countries/VAN - Vannes.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+
+[FILE] history/countries/VIK - Vikings.txt
+[Line    34] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    44] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Pellinor.dds
+[Line    53] - [GFX] DOES_NOT_EXIST :: [name] Portrait_GAL_Perceval.dds
+[EVENTS]
+[LEADERS]
+[FOCI]
+[COMMON/AUTONOMOUS_STATES]
+[COMMON/ON_ACTIONS]
+[COMMON/SCRIPTED_EFFECTS]
+[IDEA] hun_treaty_of_triannon[HAS_BUT_NEVER_SET]
+[DONE]

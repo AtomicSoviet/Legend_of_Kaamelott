@@ -1,0 +1,40 @@
+﻿capital = 138
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C08_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 0
+        }
+        barbarian = {
+          popularity = 2
+        }
+        clanic = {
+          popularity = 86
+        }
+        kingdom = {
+          popularity = 12
+        }
+      }
+
+  	ruling_party = clanic
+  }
+
+  create_country_leader = {
+  	name = "Aodh"
+  	desc = ""
+  	picture = "Portrait_C11_Aodh.dds"
+  	expire = "999.1.1"
+  	ideology = despotic
+  	traits = {
+  	}
+  }
+}

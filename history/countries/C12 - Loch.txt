@@ -1,0 +1,40 @@
+﻿capital = 144
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C08_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 0
+        }
+        barbarian = {
+          popularity = 10
+        }
+        clanic = {
+          popularity = 53
+        }
+        kingdom = {
+          popularity = 37
+        }
+      }
+
+  	ruling_party = clanic
+  }
+
+  create_country_leader = {
+  	name = "Iain MacHaalnor"
+  	desc = ""
+  	picture = "Portrait_C12_Iain.dds"
+  	expire = "999.1.1"
+  	ideology = despotic
+  	traits = {
+  	}
+  }
+}
