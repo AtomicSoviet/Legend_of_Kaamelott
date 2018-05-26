@@ -1,0 +1,15 @@
+state={
+	id=179
+	name="STATE_179"
+
+	history={
+		owner = IRE
+		add_core_of = IRE
+	}
+
+	provinces={
+		1197 1198 1199 1200 1201 1202
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

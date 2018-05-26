@@ -29,7 +29,7 @@ set_technology = {
   }
 
   create_country_leader = {
-    name = "Anicent Council"
+    name = "Ancient Council"
     desc = ""
     picture = "Portrait_TTG_Anicent_Council.dds"
     expire = "999.1.1"
@@ -39,7 +39,7 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Dame Ygerne"
+  	name = "Dame Ygerne de Tintagel"
   	desc = ""
   	picture = "Portrait_TTG_Dame_Ygerne.dds"
   	expire = "999.1.1"

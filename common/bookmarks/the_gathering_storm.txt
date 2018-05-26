@@ -7,6 +7,15 @@ bookmarks = {
 		default_country = "BRI"
 		default = yes
 
+		"SPQ"={
+			history = "SPQ_GATHERING_STORM_DESC"
+			ideology = roman
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 		"BRI"={
 			history = "BRI_GATHERING_STORM_DESC"
 			ideology = roman
@@ -18,15 +27,6 @@ bookmarks = {
 
 		"CRM"={
 			history = "CRM_GATHERING_STORM_DESC"
-			ideology = kingdom
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"CLD"={
-			history = "CLD_GATHERING_STORM_DESC"
 			ideology = kingdom
 			ideas = {
 			}
@@ -52,8 +52,17 @@ bookmarks = {
 			}
 		}
 
-		"TTG"={
-			history = "TTG_GATHERING_STORM_DESC"
+		"GAN"={
+			history = "GAN_GATHERING_STORM_DESC"
+			ideology = kingdom
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AQT"={
+			history = "AQT_GATHERING_STORM_DESC"
 			ideology = kingdom
 			ideas = {
 			}

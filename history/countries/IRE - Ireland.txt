@@ -1,1 +1,40 @@
-﻿capital = 1 #113
+﻿capital = 163
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "IRE_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 0
+        }
+        barbarian = {
+          popularity = 5
+        }
+        clanic = {
+          popularity = 65
+        }
+        kingdom = {
+          popularity = 30
+        }
+      }
+
+  	ruling_party = kingdom
+  }
+
+  create_country_leader = {
+  	name = "Ketchatar d'Irlande"
+  	desc = ""
+  	picture = "Portrait_IRE_Ketchatar.dds"
+  	expire = "999.1.1"
+  	ideology = traditional
+  	traits = {
+  	}
+  }
+}

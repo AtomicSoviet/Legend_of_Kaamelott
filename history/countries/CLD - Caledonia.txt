@@ -29,7 +29,7 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Calogrenant"
+  	name = "Calogrenant de Calédonie"
   	desc = ""
   	picture = "Portrait_CLD_Calogrenant.dds"
   	expire = "999.1.1"

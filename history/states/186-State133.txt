@@ -1,0 +1,15 @@
+state={
+	id=186
+	name="STATE_186"
+
+	history={
+		owner = BRT
+		add_core_of = BRT
+	}
+
+	provinces={
+		1352 1353 1354 1355 1356 1357 1358 1359
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

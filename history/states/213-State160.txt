@@ -1,0 +1,15 @@
+state={
+	id=213
+	name="STATE_213"
+
+	history={
+		owner = AQT
+		add_core_of = AQT
+	}
+
+	provinces={
+		1555 1556 1557 1558 1563
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

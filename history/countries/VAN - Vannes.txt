@@ -7,7 +7,7 @@ set_technology = {
 
 455.1.1 = {
   set_convoys = 25
-  OOB = "GAL_455"
+  OOB = "VAN_455"
 
   set_politics = {
       parties = {
@@ -25,33 +25,16 @@ set_technology = {
         }
       }
 
-  	ruling_party = clanic
+  	ruling_party = kingdom
   }
 
   create_country_leader = {
-  	name = "Pellinor"
+  	name = "Karadoc"
   	desc = ""
-  	picture = "Portrait_GAL_Pellinor.dds"
+  	picture = "Portrait_VAN_Karadoc.dds"
   	expire = "999.1.1"
-  	ideology = communitarian
+  	ideology = traditional
   	traits = {
   	}
-  }
-
-  create_country_leader = {
-    name = "Pellinor"
-    desc = ""
-    picture = "Portrait_GAL_Pellinor.dds"
-    expire = "999.1.1"
-    ideology = traditional
-    traits = {
-    }
-  }
-
-  create_corps_commander = {
-    name = "Perceval"
-    picture = "Portrait_GAL_Perceval.dds"
-    traits = { }
-    skill = 2
   }
 }

@@ -1,0 +1,15 @@
+state={
+	id=192
+	name="STATE_192"
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+	}
+
+	provinces={
+		1391 1399 1401 1405 1406 1407 1408
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

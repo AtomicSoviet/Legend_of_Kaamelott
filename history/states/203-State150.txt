@@ -1,0 +1,15 @@
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		owner = BNC
+		add_core_of = BNC
+	}
+
+	provinces={
+		1490 1491 1494 1495 1496 1500 1504 1507
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

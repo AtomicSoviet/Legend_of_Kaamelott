@@ -12,46 +12,29 @@ set_technology = {
   set_politics = {
       parties = {
         roman = {
-          popularity = 2
+          popularity = 20
         }
         barbarian = {
-          popularity = 13
+          popularity = 0
         }
         clanic = {
-          popularity = 65
+          popularity = 8
         }
         kingdom = {
-          popularity = 20
+          popularity = 72
         }
       }
 
-  	ruling_party = clanic
+  	ruling_party = kingdom
   }
 
   create_country_leader = {
-  	name = "Pellinor"
+  	name = "Bohort I 'l'Ancien' de Gaunes"
   	desc = ""
-  	picture = "Portrait_GAL_Pellinor.dds"
+  	picture = "Portrait_GAN_Bohort_Ancien.dds"
   	expire = "999.1.1"
-  	ideology = communitarian
+  	ideology = traditional
   	traits = {
   	}
-  }
-
-  create_country_leader = {
-    name = "Pellinor"
-    desc = ""
-    picture = "Portrait_GAL_Pellinor.dds"
-    expire = "999.1.1"
-    ideology = traditional
-    traits = {
-    }
-  }
-
-  create_corps_commander = {
-    name = "Perceval"
-    picture = "Portrait_GAL_Perceval.dds"
-    traits = { }
-    skill = 2
   }
 }
