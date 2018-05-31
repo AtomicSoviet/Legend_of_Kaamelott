@@ -29,7 +29,7 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Elanus II d'Aquitaine"
+  	name = "Elanus V d'Aquitaine"
   	desc = ""
   	picture = "Portrait_AQT_Duc.dds"
   	expire = "999.1.1"
