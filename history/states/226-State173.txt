@@ -1,0 +1,15 @@
+state={
+	id=226
+	name="STATE_226"
+
+	history={
+		owner = ALE
+		add_core_of = ALE
+	}
+
+	provinces={
+		1627 1628 1629 1636
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

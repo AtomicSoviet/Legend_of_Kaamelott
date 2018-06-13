@@ -1,0 +1,17 @@
+﻿###############################################################
+# GAELIC
+###############################################################
+IRE = {
+	male = {
+		names = {  
+			Aodh Art Breandán Brian Cearbhall Conall Conn Daithí Déaglán Diarmaid Dónal Donnchadh Éamonn Finnian Flann Iarla Peadar Ruadhán Séamus Ultán
+		}
+	}
+	female = {
+		names = { 
+			Aifric Bláthnaid Bríd Caitríona Clíodhna Deirbhile Deirdre Éadaoin Éibhlín Eithne Fionnuala Lasairfhíona Máiréad Muireann Peig Saorla Sibéal Úna Siobhán Sorcha 
+		}
+	}
+	surnames = { }
+	callsigns = { }
+}

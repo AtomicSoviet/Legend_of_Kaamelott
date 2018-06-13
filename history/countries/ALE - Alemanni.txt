@@ -1,0 +1,40 @@
+﻿capital = 3
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "ALE_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 0
+        }
+        barbarian = {
+          popularity = 88
+        }
+        clanic = {
+          popularity = 12
+        }
+        kingdom = {
+          popularity = 0
+        }
+      }
+
+  	ruling_party = barbarian
+  }
+
+  create_country_leader = {
+  	name = "Alemanni Leader"
+  	desc = ""
+  	picture = ""
+  	expire = "999.1.1"
+  	ideology = germanic
+  	traits = {
+  	}
+  }
+}
