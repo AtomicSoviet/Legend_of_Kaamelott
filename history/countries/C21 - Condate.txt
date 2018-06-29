@@ -1,0 +1,40 @@
+﻿capital = 128
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C08_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 0
+        }
+        barbarian = {
+          popularity = 11
+        }
+        clanic = {
+          popularity = 47
+        }
+        kingdom = {
+          popularity = 42
+        }
+      }
+
+  	ruling_party = clanic
+  }
+
+  create_country_leader = {
+  	name = "Joël I d'Armorique"
+  	desc = ""
+  	picture = "Portrait_C21_Joel.dds"
+  	expire = "999.1.1"
+  	ideology = despotic
+  	traits = {
+  	}
+  }
+}

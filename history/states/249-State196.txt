@@ -1,0 +1,15 @@
+state={
+	id=249
+	name="STATE_249"
+
+	history={
+		owner = VND
+		add_core_of = VND
+	}
+
+	provinces={
+		2062 2063
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

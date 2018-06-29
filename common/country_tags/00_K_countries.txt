@@ -18,6 +18,7 @@ SPQ = "countries/Rome.txt"
 TTG	= "countries/Tintagel.txt"
 VAN = "countries/Vannes.txt"
 VIK = "countries/Viking.txt"
+VND = "countries/Vandals.txt"
 
 # CLANS
 
@@ -39,3 +40,10 @@ C15 = "countries/Ruairidh.txt"
 C16 = "countries/Lauchlan Eilean.txt"
 C17 = "countries/Ewan Eilean.txt"
 C18 = "countries/Rory Eileanan.txt"
+C19 = "countries/Manica.txt"
+C20 = "countries/Vicinonia.txt"
+C21 = "countries/Condate.txt"
+C22 = "countries/Mares.txt"
+C23 = "countries/Canomannia.txt"
+C24 = "countries/Caux.txt"
+C25 = "countries/Lemovinensis.txt"

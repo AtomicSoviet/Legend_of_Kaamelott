@@ -1,0 +1,40 @@
+﻿capital = 128
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C20_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 13
+        }
+        barbarian = {
+          popularity = 0
+        }
+        clanic = {
+          popularity = 15
+        }
+        kingdom = {
+          popularity = 72
+        }
+      }
+
+  	ruling_party = kingdom
+  }
+
+  create_country_leader = {
+  	name = "Erwan I de Vicinonia"
+  	desc = "ERWAN_DE_VICINONIA_DESC"
+  	picture = "Portrait_C20_Erwan.dds"
+  	expire = "999.1.1"
+  	ideology = traditional
+  	traits = {
+  	}
+  }
+}

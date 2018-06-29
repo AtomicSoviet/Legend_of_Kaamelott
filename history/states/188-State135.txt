@@ -3,8 +3,8 @@ state={
 	name="STATE_188"
 
 	history={
-		owner = GAN
-		add_core_of = GAN
+		owner = C20
+		add_core_of = C20
 	}
 
 	provinces={

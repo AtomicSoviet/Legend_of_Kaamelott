@@ -2063,4 +2063,19 @@
 2062;9;165;170;land;false;desert;7
 2063;9;165;225;land;false;plains;5
 2064;9;168;85;land;false;desert;5
-2065;9;168;135;land;false;mountain;7
+2065;9;168;135;land;false;mountain;7 #######################
+2066;9;168;190;land;false;desert;5
+2067;9;171;50;land;false;mountain;6
+2068;9;171;155;land;false;desert;5
+2069;9;171;200;land;true;desert;2
+2070;9;174;15;land;false;mountain;7
+2071;9;174;165;land;false;hills;7
+2072;9;174;220;land;false;mountain;5
+2073;9;177;80;land;false;jungle;5
+2074;9;177;130;land;false;mountain;6
+2075;9;177;185;land;true;jungle;3
+2076;9;180;45;land;false;mountain;6
+2077;9;180;150;land;true;jungle;2
+2078;9;183;10;land;false;desert;6
+2079;9;183;65;land;false;mountain;3
+2080;9;183;215;land;false;jungle;5

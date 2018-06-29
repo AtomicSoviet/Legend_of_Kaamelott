@@ -52,6 +52,9 @@ ideologies = {
 
 			mediteranean = {
 			}
+
+			berber = {
+			}
 		}
 
 		dynamic_faction_names = {

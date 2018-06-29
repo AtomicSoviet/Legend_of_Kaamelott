@@ -1,0 +1,15 @@
+state={
+	id=234
+	name="STATE_234"
+
+	history={
+		owner = BUR
+		add_core_of = BUR
+	}
+
+	provinces={
+		1900 1901 1902 1911 1957
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
