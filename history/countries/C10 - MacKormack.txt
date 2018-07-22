@@ -1,4 +1,4 @@
-﻿capital = 146
+capital = 146
 
 set_research_slots = 1
 
@@ -30,7 +30,7 @@ set_technology = {
 
   create_country_leader = {
   	name = "Neil"
-  	desc = ""
+  	desc = "NEIL_MACKORMACK_DESC"
   	picture = "Portrait_C10_Neil_Mac_Kormack.dds"
   	expire = "999.1.1"
   	ideology = despotic
