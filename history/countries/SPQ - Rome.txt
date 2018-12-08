@@ -12,46 +12,84 @@ set_technology = {
   set_politics = {
       parties = {
         roman = {
-          popularity = 2
+          popularity = 95
         }
         barbarian = {
-          popularity = 13
+          popularity = 0
         }
         clanic = {
-          popularity = 65
+          popularity = 0
         }
         kingdom = {
-          popularity = 20
+          popularity = 5
         }
       }
 
-  	ruling_party = clanic
+  	ruling_party = roman
   }
 
   create_country_leader = {
-  	name = "Pellinor"
+  	name = "Valentinian III"
   	desc = ""
-  	picture = "Portrait_GAL_Pellinor.dds"
+  	picture = "Portrait_SPQ_Valentinian_III.dds"
   	expire = "999.1.1"
-  	ideology = communitarian
+  	ideology = western_roman
   	traits = {
   	}
   }
 
-  create_country_leader = {
-    name = "Pellinor"
-    desc = ""
-    picture = "Portrait_GAL_Pellinor.dds"
-    expire = "999.1.1"
-    ideology = traditional
-    traits = {
-    }
+  create_corps_commander = {
+    name = "Appius Manilius"
+    picture = "Portrait_SPQ_Appius_Manilius.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
   }
 
   create_corps_commander = {
-    name = "Perceval"
-    picture = "Portrait_GAL_Perceval.dds"
+    name = "Arthurus"
+    picture = "Portrait_SPQ_Arthurus.dds"
     traits = { }
     skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+  }
+
+  create_corps_commander = {
+    name = "Caius Camillus"
+    picture = "Portrait_SPQ_Caius_Camillus.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+  }
+
+  create_field_marshal = {
+    name = "Titus Nipius Glaucia"
+    picture = "Portrait_SPQ_Titus_Nipius_Glaucia.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+  }
+
+  create_field_marshal = {
+    name = "Vibius Iuventius Bestia"
+    picture = "Portrait_SPQ_Vibius_Iuventius_Bestia.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
   }
 }

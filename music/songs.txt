@@ -228,7 +228,7 @@ music = {
 }
 
 music = {
-	song = "the_response"
+	song = "the_answer"
 	
 	chance = {
 		modifier = {

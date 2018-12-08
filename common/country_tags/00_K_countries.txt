@@ -17,8 +17,9 @@ PCT = "countries/Picts.txt"
 SPQ = "countries/Rome.txt"
 TTG	= "countries/Tintagel.txt"
 VAN = "countries/Vannes.txt"
-VIK = "countries/Viking.txt"
+VIK = "countries/Vikings.txt"
 VND = "countries/Vandals.txt"
+VSG = "countries/Visigoths.txt"
 
 # CLANS
 

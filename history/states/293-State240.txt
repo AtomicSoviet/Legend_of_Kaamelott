@@ -1,0 +1,15 @@
+state={
+	id=293
+	name="STATE_293"
+
+	history={
+		owner = VSG
+		add_core_of = VSG
+	}
+
+	provinces={
+		1796 1797 1804 1805
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

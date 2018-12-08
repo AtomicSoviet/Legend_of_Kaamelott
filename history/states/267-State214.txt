@@ -1,0 +1,15 @@
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = SPQ
+		add_core_of = SPQ
+	}
+
+	provinces={
+		2068 2069 2080 2081 2088
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

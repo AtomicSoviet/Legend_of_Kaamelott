@@ -1,0 +1,1640 @@
+focus_tree = {
+	id = carmelide_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRM
+		}
+	}
+	default = yes
+	focus = {
+		id = CRM_the_cruel
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = CRM_aggresive_defense_strategy
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 26
+		y = 0
+
+	}
+	focus = {
+		id = CRM_open_the_york_military_school
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 44
+		y = 0
+
+	}
+	focus = {
+		id = CRM_increase_taxation_farmers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_cruel
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = CRM_burn_the_romans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_increase_taxation_farmers
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = CRM_an_iron_fist
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_burn_the_romans
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = CRM_whip_the_money_out_of_them
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_increase_taxation_farmers
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = CRM_produce_more_food
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_whip_the_money_out_of_them
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = CRM_in_an_iron_glove
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_produce_more_food
+		}
+		prerequisite = {
+			focus = CRM_an_iron_fist
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = CRM_the_bloodthirsty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_cruel
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = CRM_secure_the_throne
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_bloodthirsty
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = CRM_refuse_the_roman_hand
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_bloodthirsty
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = CRM_a_queen_for_logres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_secure_the_throne
+		}
+		prerequisite = {
+			focus = CRM_refuse_the_roman_hand
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = CRM_host_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_a_queen_for_logres
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = CRM_carmeliard_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_host_the_king
+		}
+		mutually_exclusive = {
+			focus = CRM_develop_knights_code
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = CRM_translate_the_old_texts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_carmeliard_code
+		}
+		x = 3
+		y = 10
+
+	}
+	focus = {
+		id = CRM_we_can_doubt_everything
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_translate_the_old_texts
+		}
+		x = 1
+		y = 11
+
+	}
+	focus = {
+		id = CRM_develop_knights_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_host_the_king
+		}
+		mutually_exclusive = {
+			focus = CRM_carmeliard_code
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = CRM_open_new_military_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_carmeliard_code
+			focus = CRM_develop_knights_code
+		}
+		x = 6
+		y = 13
+
+	}
+	focus = {
+		id = CRM_the_celtic_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_develop_knights_code
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = CRM_carmeliard_politics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_host_the_king
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = CRM_a_kingdom_of_britons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_carmeliard_politics
+		}
+		mutually_exclusive = {
+			focus = CRM_a_distant_partner
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = CRM_unify_the_language
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_a_kingdom_of_britons
+		}
+		prerequisite = {
+			focus = CRM_the_celtic_code
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = CRM_brittania_is_briton
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_a_kingdom_of_britons
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = CRM_loyalty_to_briton_heritage
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_cruel
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = CRM_knights_of_carmelide
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_loyalty_to_briton_heritage
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = CRM_burn_churches
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_knights_of_carmelide
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = CRM_a_distant_partner
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_carmeliard_politics
+		}
+		mutually_exclusive = {
+			focus = CRM_a_kingdom_of_britons
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = CRM_reject_the_federation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_a_distant_partner
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = CRM_the_logres_alliance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_brittania_is_briton
+			focus = CRM_reject_the_federation
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = CRM_participate_in_the_war_effort
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_logres_alliance
+		}
+		x = 15
+		y = 13
+
+	}
+	focus = {
+		id = CRM_reaffirm_the_carmeliard_nobility
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_loyalty_to_briton_heritage
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = CRM_punch_the_picts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_reaffirm_the_carmeliard_nobility
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = CRM_caledonian_friendship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_burn_churches
+		}
+		prerequisite = {
+			focus = CRM_punch_the_picts
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = CRM_individual_trading
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_a_distant_partner
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = CRM_blockades_in_the_atlanticus
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_individual_trading
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = CRM_the_gold_will_flow
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_blockades_in_the_atlanticus
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = CRM_relative_modernism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_host_the_king
+		}
+		mutually_exclusive = {
+			focus = CRM_carmeliard_traditions
+		}
+		x = 21
+		y = 9
+
+	}
+	focus = {
+		id = CRM_rebuild_our_road_network
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_relative_modernism
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = CRM_established_cities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_rebuild_our_road_network
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = CRM_focus_on_the_coast
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_aggresive_defense_strategy
+		}
+		mutually_exclusive = {
+			focus = CRM_focus_on_the_land
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = CRM_propose_plan_to_arthur
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_focus_on_the_coast
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = CRM_push_the_plan_through
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_propose_plan_to_arthur
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = CRM_convince_arthur
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_push_the_plan_through
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = CRM_carmeliard_traditions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_host_the_king
+		}
+		mutually_exclusive = {
+			focus = CRM_relative_modernism
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = CRM_urgent_necessities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_relative_modernism
+			focus = CRM_carmeliard_traditions
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = CRM_modernize_our_seaports
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_urgent_necessities
+		}
+		x = 21
+		y = 11
+
+	}
+	focus = {
+		id = CRM_courrier_and_pigeons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_rebuild_our_road_network
+		}
+		prerequisite = {
+			focus = CRM_modernize_our_seaports
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = CRM_coastal_patrols
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_focus_on_the_coast
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = CRM_promote_druidic_cult
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_carmeliard_traditions
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = CRM_focus_on_the_land
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_aggresive_defense_strategy
+		}
+		mutually_exclusive = {
+			focus = CRM_focus_on_the_coast
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = CRM_the_art_of_poliorcetics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_focus_on_the_coast
+			focus = CRM_focus_on_the_land
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = CRM_coastal_turret_system
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_coastal_patrols
+		}
+		prerequisite = {
+			focus = CRM_the_art_of_poliorcetics
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = CRM_brand_new_battering_ram
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_art_of_poliorcetics
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = CRM_siege_warfare_research
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_brand_new_battering_ram
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = CRM_catapult_mechanics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_art_of_poliorcetics
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = CRM_train_new_ballistars
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_catapult_mechanics
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = CRM_et_super_omnia_carmelidia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_siege_warfare_research
+		}
+		prerequisite = {
+			focus = CRM_train_new_ballistars
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = CRM_the_advent_of_medicine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_promote_druidic_cult
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = CRM_reject_roman_practices
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_advent_of_medicine
+		}
+		x = 27
+		y = 12
+
+	}
+	focus = {
+		id = CRM_barracks_everywhere
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_focus_on_the_land
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = CRM_repurpose_the_hadrian_wall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_barracks_everywhere
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = CRM_build_the_goustan_wall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_repurpose_the_hadrian_wall
+		}
+		prerequisite = {
+			focus = CRM_catapult_mechanics
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = CRM_the_saxon_line_proposal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_focus_on_the_land
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = CRM_reassure_arthur
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_saxon_line_proposal
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = CRM_an_alternative_funding
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_reassure_arthur
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = CRM_yvains_education
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_open_the_york_military_school
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = CRM_the_way_of_seli
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_yvains_education
+		}
+		mutually_exclusive = {
+			focus = CRM_the_way_of_leodagan
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = CRM_poetry_and_literature
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_way_of_seli
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = CRM_a_thorough_education
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_way_of_seli
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = CRM_pict_arts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_a_thorough_education
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = CRM_pict_music
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_poetry_and_literature
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = CRM_holidays_at_the_picts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_pict_music
+		}
+		prerequisite = {
+			focus = CRM_pict_arts
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = CRM_the_way_of_leodagan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_yvains_education
+		}
+		mutually_exclusive = {
+			focus = CRM_the_way_of_seli
+		}
+		x = 39
+		y = 2
+
+	}
+	focus = {
+		id = CRM_clear_out_some_bandits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_way_of_leodagan
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = CRM_send_him_to_the_front
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_clear_out_some_bandits
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = CRM_military_carmeliarism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_open_the_york_military_school
+		}
+		x = 44
+		y = 1
+
+	}
+	focus = {
+		id = CRM_send_him_to_the_casern
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_yvains_education
+		}
+		prerequisite = {
+			focus = CRM_military_carmeliarism
+		}
+		x = 41
+		y = 2
+
+	}
+	focus = {
+		id = CRM_yvain_the_knight
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_send_him_to_the_casern
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = CRM_holidays_with_mackormack
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_send_him_to_the_front
+		}
+		prerequisite = {
+			focus = CRM_yvain_the_knight
+		}
+		x = 39
+		y = 5
+
+	}
+	focus = {
+		id = CRM_the_new_yvain
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_holidays_with_mackormack
+			focus = CRM_holidays_at_the_picts
+		}
+		x = 38
+		y = 6
+
+	}
+	focus = {
+		id = CRM_no_mercy_for_the_weak
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_military_carmeliarism
+		}
+		x = 43
+		y = 2
+
+	}
+	focus = {
+		id = CRM_tax_raids_in_our_villages
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_no_mercy_for_the_weak
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = CRM_no_pity_for_the_poor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_military_carmeliarism
+		}
+		x = 45
+		y = 2
+
+	}
+	focus = {
+		id = CRM_the_new_generation_of_soldiers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_no_mercy_for_the_weak
+		}
+		prerequisite = {
+			focus = CRM_no_pity_for_the_poor
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = CRM_earn_our_reputation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_new_generation_of_soldiers
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = CRM_the_final_unification
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_earn_our_reputation
+		}
+		x = 44
+		y = 5
+
+	}
+	focus = {
+		id = CRM_against_the_eastern_clans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_final_unification
+		}
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = CRM_against_the_northern_clans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_final_unification
+		}
+		x = 45
+		y = 6
+
+	}
+	focus = {
+		id = CRM_an_organized_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_open_the_york_military_school
+		}
+		x = 50
+		y = 1
+
+	}
+	focus = {
+		id = CRM_flag_bearers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_an_organized_army
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = CRM_forced_conscription
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_no_pity_for_the_poor
+		}
+		prerequisite = {
+			focus = CRM_flag_bearers
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = CRM_flag_code_for_our_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_flag_bearers
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = CRM_blow_the_horn
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_flag_code_for_our_troops
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = CRM_the_call_to_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_blow_the_horn
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = CRM_chain_of_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_an_organized_army
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = CRM_train_the_generals
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_chain_of_command
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = CRM_a_competent_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_train_the_generals
+		}
+		prerequisite = {
+			focus = CRM_flag_code_for_our_troops
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = CRM_coordinated_attacks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_an_organized_army
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = CRM_vassal_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_coordinated_attacks
+		}
+		x = 52
+		y = 3
+
+	}
+	focus = {
+		id = CRM_urban_militias
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_coordinated_attacks
+		}
+		x = 54
+		y = 3
+
+	}
+	focus = {
+		id = CRM_keep_the_cities_in_check
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_urban_militias
+		}
+		x = 54
+		y = 4
+
+	}
+	focus = {
+		id = CRM_eliminate_disloyal_nobles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_vassal_troops
+		}
+		prerequisite = {
+			focus = CRM_a_competent_army
+			focus = CRM_keep_the_cities_in_check
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = CRM_road_patrols
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_urban_militias
+		}
+		x = 56
+		y = 4
+
+	}
+	focus = {
+		id = CRM_crackdown_on_bandits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_road_patrols
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = CRM_strict_code_of_conduct
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_develop_knights_code
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = CRM_adapt_the_code_of_conduct
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_strict_code_of_conduct
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = CRM_our_interpretation_of_the_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_adapt_the_code_of_conduct
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = CRM_the_gogyrfan_way
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_carmeliard_code
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = CRM_right_hand_of_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_gogyrfan_way
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = CRM_the_carmeliard_militia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_right_hand_of_the_king
+		}
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = CRM_permanent_surveillance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_coastal_turret_system
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = CRM_secure_his_place
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_new_yvain
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = CRM_gogyrfan_hegemony
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_eliminate_disloyal_nobles
+		}
+		x = 52
+		y = 6
+
+	}
+	focus = {
+		id = CRM_secure_the_border
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_road_patrols
+		}
+		x = 57
+		y = 5
+
+	}
+	focus = {
+		id = CRM_express_training
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_forced_conscription
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = CRM_pendragons_legacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_strict_code_of_conduct
+		}
+		prerequisite = {
+			focus = CRM_the_celtic_code
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = CRM_adopt_unique_currency
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_unify_the_language
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = CRM_help_reunify_north_logres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_logres_alliance
+		}
+		x = 13
+		y = 13
+
+	}
+	focus = {
+		id = CRM_distant_participation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_adopt_unique_currency
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = CRM_organized_farming_practices
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_urgent_necessities
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = CRM_redistribute_the_lordships
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_organized_farming_practices
+		}
+		prerequisite = {
+			focus = CRM_invite_a_court_druid
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = CRM_water_and_food_networks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_established_cities
+		}
+		x = 19
+		y = 13
+
+	}
+	focus = {
+		id = CRM_send_a_message
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_courrier_and_pigeons
+			focus = CRM_redistribute_the_lordships
+		}
+		x = 22
+		y = 13
+
+	}
+	focus = {
+		id = CRM_the_carmeliard_system
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_gold_will_flow
+		}
+		prerequisite = {
+			focus = CRM_water_and_food_networks
+		}
+		x = 18
+		y = 14
+
+	}
+	focus = {
+		id = CRM_the_quest_for_the_graal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_participate_in_the_war_effort
+		}
+		prerequisite = {
+			focus = CRM_help_reunify_north_logres
+		}
+		x = 14
+		y = 14
+
+	}
+	focus = {
+		id = CRM_our_own_ways
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_distant_participation
+		}
+		prerequisite = {
+			focus = CRM_help_reunify_north_logres
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = CRM_accept_the_federation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_adopt_unique_currency
+		}
+		prerequisite = {
+			focus = CRM_the_pacts_of_kings
+		}
+		x = 9
+		y = 13
+
+	}
+	focus = {
+		id = CRM_the_pacts_of_kings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_pendragons_legacy
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = CRM_invite_a_court_druid
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_promote_druidic_cult
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = CRM_magic_is_complicated
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_invite_a_court_druid
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = CRM_a_new_pantheon
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_magic_is_complicated
+		}
+		prerequisite = {
+			focus = CRM_reject_roman_practices
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = {
+		id = CRM_the_deceitful
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_magic_is_complicated
+		}
+		x = 25
+		y = 14
+
+	}
+	focus = {
+		id = CRM_modernity_with_carmeliard_characteristics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_send_a_message
+		}
+		prerequisite = {
+			focus = CRM_redistribute_the_lordships
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = CRM_celtic_pride
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_translate_the_old_texts
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = CRM_expect_for_the_necessity
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_we_can_doubt_everything
+		}
+		x = 1
+		y = 12
+
+	}
+	focus = {
+		id = CRM_the_carmelide_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_celtic_pride
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = CRM_the_renegade_country
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_the_carmeliard_militia
+		}
+		prerequisite = {
+			focus = CRM_the_carmelide_council
+		}
+		x = 4
+		y = 13
+
+	}
+	focus = {
+		id = CRM_of_being_with_the_one_with_the_money
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CRM_expect_for_the_necessity
+		}
+		x = 1
+		y = 13
+
+	}
+}

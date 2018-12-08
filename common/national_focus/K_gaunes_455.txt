@@ -1,0 +1,1552 @@
+focus_tree = {
+	id = gaunes_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GAN
+		}
+	}
+	default = no
+	focus = {
+		id = GAN_pax_gaunae
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = GAN_roman_trading
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = GAN_the_call_of_arthurus
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 25
+		y = 0
+
+	}
+	focus = {
+		id = GAN_lionel_i
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = GAN_bohort_ii
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = GAN_bohort_ii
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = GAN_lionel_i
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = GAN_the_allaman_problem
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = GAN_our_place_in_the_briton_federation
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 37
+		y = 10
+
+	}
+	focus = {
+		id = GAN_review_the_clanic_treaties
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_pax_gaunae
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = GAN_deal_with_knights
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_review_the_clanic_treaties
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = GAN_erwans_financial_problems
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_deal_with_knights
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = GAN_christophs_hunting_trips
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_erwans_financial_problems
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = GAN_modern_practices
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_bohort_ii
+		}
+		x = 1
+		y = 11
+
+	}
+	focus = {
+		id = GAN_the_end_of_slavery
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_modern_practices
+		}
+		x = 0
+		y = 12
+
+	}
+	focus = {
+		id = GAN_strengthen_our_noble_roots
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_review_the_clanic_treaties
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = GAN_celebrate_the_de_gaunes_line
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_strengthen_our_noble_roots
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = GAN_instore_an_annual_ceremony
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_celebrate_the_de_gaunes_line
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = GAN_gaunes_the_eternal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_christophs_hunting_trips
+		}
+		prerequisite = {
+			focus = GAN_instore_an_annual_ceremony
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = GAN_the_end_of_barbary
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_modern_practices
+		}
+		x = 2
+		y = 12
+
+	}
+	focus = {
+		id = GAN_pendragons_legacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_review_the_clanic_treaties
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = GAN_the_frankish_deal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_pax_gaunae
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = GAN_invite_clodoric
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_frankish_deal
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = GAN_the_northern_coast_alliance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_pendragons_legacy
+		}
+		prerequisite = {
+			focus = GAN_invite_clodoric
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = GAN_invite_gaetan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_celebrate_the_de_gaunes_line
+		}
+		prerequisite = {
+			focus = GAN_the_northern_coast_alliance
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = GAN_the_lenur_islands_clan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_northern_coast_alliance
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = GAN_the_duke_of_caesarea
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_lenur_islands_clan
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = GAN_the_duke_of_lisia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_lenur_islands_clan
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = GAN_lord_of_riduna
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_duke_of_caesarea
+		}
+		prerequisite = {
+			focus = GAN_the_duke_of_lisia
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = GAN_the_lenuri_connection
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_lord_of_riduna
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = GAN_keep_the_peace
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_bohort_ii
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = GAN_pacify_the_countryside
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_keep_the_peace
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = GAN_talk_with_the_clan_leaders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_pacify_the_countryside
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = GAN_ask_arthur_for_help
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_talk_with_the_clan_leaders
+		}
+		x = 8
+		y = 14
+
+	}
+	focus = {
+		id = GAN_celebrate_the_father
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_bohort_ii
+			focus = GAN_lionel_i
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = GAN_celebrate_the_mother
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_celebrate_the_father
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = GAN_legacy_of_bohort_the_old
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_celebrate_the_mother
+		}
+		x = 9
+		y = 13
+
+	}
+	focus = {
+		id = GAN_focus_on_the_imports
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_roman_trading
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = GAN_tools_for_our_peasants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_focus_on_the_imports
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = GAN_clothes_for_our_nobles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_focus_on_the_imports
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = GAN_the_rich_kingdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_tools_for_our_peasants
+		}
+		prerequisite = {
+			focus = GAN_clothes_for_our_nobles
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = GAN_the_lutecian_projects
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_rich_kingdom
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = GAN_sequana_dockyards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_lutecian_projects
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = GAN_paved_roads_to_lutecia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_lutecian_projects
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = GAN_protectionist_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_lionel_i
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = GAN_military_academy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_protectionist_policy
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = GAN_new_tactics_and_maneuvers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_protectionist_policy
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = GAN_coastal_defense_order
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_military_academy
+		}
+		prerequisite = {
+			focus = GAN_new_tactics_and_maneuvers
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = GAN_trebuchets_for_the_kingdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_coastal_defense_order
+		}
+		x = 14
+		y = 14
+
+	}
+	focus = {
+		id = GAN_antagonize_armorica
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_trebuchets_for_the_kingdom
+		}
+		x = 14
+		y = 15
+
+	}
+	focus = {
+		id = GAN_focus_on_the_exports
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_roman_trading
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = GAN_cultural_exchange
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_focus_on_the_imports
+			focus = GAN_focus_on_the_exports
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = GAN_extend_roman_deal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_cultural_exchange
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = GAN_align_with_roma
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_extend_roman_deal
+		}
+		prerequisite = {
+			focus = GAN_the_rich_kingdom
+		}
+		mutually_exclusive = {
+			focus = GAN_align_with_brittania
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = GAN_invite_the_emperor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_align_with_roma
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = GAN_cider_against_swords
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_focus_on_the_exports
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = GAN_legacy_of_the_father
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_lionel_i
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = GAN_smithing_expertise
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_focus_on_the_exports
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = GAN_agricultural_developments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_cider_against_swords
+		}
+		prerequisite = {
+			focus = GAN_smithing_expertise
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = GAN_align_with_brittania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_extend_roman_deal
+		}
+		prerequisite = {
+			focus = GAN_agricultural_developments
+		}
+		mutually_exclusive = {
+			focus = GAN_align_with_roma
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = GAN_roman_gold
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_agricultural_developments
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = GAN_approach_caux
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_legacy_of_the_father
+		}
+		x = 19
+		y = 12
+
+	}
+	focus = {
+		id = GAN_develop_inside_trading
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_approach_caux
+		}
+		x = 19
+		y = 13
+
+	}
+	focus = {
+		id = GAN_help_from_the_franks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_allaman_problem
+		}
+		mutually_exclusive = {
+			focus = GAN_rearmament
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = GAN_talk_with_allemani
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_help_from_the_franks
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = GAN_the_art_of_negotiations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_talk_with_allemani
+		}
+		x = 23
+		y = 13
+
+	}
+	focus = {
+		id = GAN_send_bohort
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_call_of_arthurus
+		}
+		mutually_exclusive = {
+			focus = GAN_send_lionel
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = GAN_against_the_bandits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_send_bohort
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = GAN_send_lionel
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_call_of_arthurus
+		}
+		mutually_exclusive = {
+			focus = GAN_send_bohort
+		}
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = GAN_the_coup_monte
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_send_lionel
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = GAN_our_victorious_knight
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_against_the_bandits
+			focus = GAN_the_coup_monte
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = GAN_send_bohort_to_the_isle
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_our_victorious_knight
+		}
+		prerequisite = {
+			focus = GAN_against_the_bandits
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = GAN_send_lionel_to_the_isle
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_our_victorious_knight
+		}
+		prerequisite = {
+			focus = GAN_the_coup_monte
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = GAN_rearmament
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_allaman_problem
+		}
+		mutually_exclusive = {
+			focus = GAN_help_from_the_franks
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = GAN_border_fortifications
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_rearmament
+		}
+		x = 27
+		y = 12
+
+	}
+	focus = {
+		id = GAN_forest_camps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_border_fortifications
+		}
+		x = 27
+		y = 13
+
+	}
+	focus = {
+		id = GAN_military_drills
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_rearmament
+		}
+		x = 29
+		y = 12
+
+	}
+	focus = {
+		id = GAN_new_flag_bearer
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_military_drills
+		}
+		x = 29
+		y = 13
+
+	}
+	focus = {
+		id = GAN_command_from_afar
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_forest_camps
+		}
+		prerequisite = {
+			focus = GAN_new_flag_bearer
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = {
+		id = GAN_reaffirm_the_pact_of_the_kings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_our_place_in_the_briton_federation
+		}
+		x = 35
+		y = 11
+
+	}
+	focus = {
+		id = GAN_integrate_knights_realms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_reaffirm_the_pact_of_the_kings
+		}
+		x = 35
+		y = 12
+
+	}
+	focus = {
+		id = GAN_reassure_the_romans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_integrate_knights_realms
+		}
+		x = 33
+		y = 13
+
+	}
+	focus = {
+		id = GAN_our_cousin_in_benoic
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_our_place_in_the_briton_federation
+		}
+		x = 37
+		y = 11
+
+	}
+	focus = {
+		id = GAN_secure_the_lands
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_our_cousin_in_benoic
+		}
+		x = 37
+		y = 12
+
+	}
+	focus = {
+		id = GAN_change_our_currency
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_integrate_knights_realms
+		}
+		prerequisite = {
+			focus = GAN_secure_the_lands
+		}
+		x = 35
+		y = 13
+
+	}
+	focus = {
+		id = GAN_send_our_stonecutters
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_secure_the_lands
+		}
+		x = 37
+		y = 13
+
+	}
+	focus = {
+		id = GAN_armorican_communication
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_our_place_in_the_briton_federation
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = GAN_dispute_of_the_mont_tombe
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_armorican_communication
+		}
+		x = 39
+		y = 12
+
+	}
+	focus = {
+		id = GAN_residency_in_brittania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_dispute_of_the_mont_tombe
+		}
+		prerequisite = {
+			focus = GAN_secure_the_lands
+		}
+		x = 39
+		y = 13
+
+	}
+	focus = {
+		id = GAN_refuse_the_invitation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_change_our_currency
+			focus = GAN_residency_in_brittania
+		}
+		mutually_exclusive = {
+			focus = GAN_join_the_assembly_of_kings
+		}
+		x = 36
+		y = 14
+
+	}
+	focus = {
+		id = GAN_join_the_assembly_of_kings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_residency_in_brittania
+			focus = GAN_change_our_currency
+		}
+		mutually_exclusive = {
+			focus = GAN_refuse_the_invitation
+		}
+		x = 38
+		y = 14
+
+	}
+	focus = {
+		id = GAN_invite_the_dux_totius
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_align_with_brittania
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = GAN_gallo_roman_friendship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_invite_the_emperor
+			focus = GAN_invite_the_dux_totius
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = GAN_renew_our_frankish_friendship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_bohort_ii
+		}
+		x = 4
+		y = 11
+
+	}
+	focus = {
+		id = GAN_invite_lord_boniface
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_renew_our_frankish_friendship
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = GAN_chruches_in_the_kingdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_invite_lord_boniface
+		}
+		x = 5
+		y = 13
+
+	}
+	focus = {
+		id = GAN_new_castle_construction
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_invite_lord_boniface
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = GAN_the_end_of_capital_punishment
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_end_of_barbary
+		}
+		prerequisite = {
+			focus = GAN_the_end_of_slavery
+		}
+		x = 1
+		y = 13
+
+	}
+	focus = {
+		id = GAN_listen_to_the_peasants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_end_of_capital_punishment
+		}
+		x = 1
+		y = 14
+
+	}
+	focus = {
+		id = GAN_fortified_cities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_new_castle_construction
+		}
+		x = 3
+		y = 14
+
+	}
+	focus = {
+		id = GAN_financial_security_in_the_federation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_chruches_in_the_kingdom
+		}
+		prerequisite = {
+			focus = GAN_talk_with_the_clan_leaders
+		}
+		x = 6
+		y = 14
+
+	}
+	focus = {
+		id = GAN_the_second_gaunes_golden_age
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_listen_to_the_peasants
+		}
+		prerequisite = {
+			focus = GAN_fortified_cities
+		}
+		x = 2
+		y = 15
+
+	}
+	focus = {
+		id = GAN_logres_export
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_financial_security_in_the_federation
+		}
+		x = 5
+		y = 15
+
+	}
+	focus = {
+		id = GAN_cut_out_roman_ties
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_financial_security_in_the_federation
+		}
+		x = 7
+		y = 15
+
+	}
+	focus = {
+		id = GAN_secure_aquitanian_road
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_cut_out_roman_ties
+		}
+		prerequisite = {
+			focus = GAN_logres_export
+		}
+		x = 6
+		y = 16
+
+	}
+	focus = {
+		id = GAN_in_the_glory_of_the_lord
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_second_gaunes_golden_age
+		}
+		x = 2
+		y = 16
+
+	}
+	focus = {
+		id = GAN_the_great_festival
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_secure_aquitanian_road
+		}
+		prerequisite = {
+			focus = GAN_in_the_glory_of_the_lord
+		}
+		x = 4
+		y = 17
+
+	}
+	focus = {
+		id = GAN_but_keep_the_roman_culture
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_cut_out_roman_ties
+		}
+		x = 8
+		y = 16
+
+	}
+	focus = {
+		id = GAN_on_the_footsteps_of_logres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_but_keep_the_roman_culture
+		}
+		x = 8
+		y = 17
+
+	}
+	focus = {
+		id = GAN_northern_partners
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_secure_aquitanian_road
+		}
+		x = 6
+		y = 17
+
+	}
+	focus = {
+		id = GAN_learn_from_the_ancients
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_lionel_i
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = GAN_follow_our_pagan_roots
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_learn_from_the_ancients
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = GAN_the_druids_of_gaunes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_follow_our_pagan_roots
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = GAN_pendragonic_feudalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_legacy_of_the_father
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = GAN_the_knights_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_pendragonic_feudalism
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = GAN_the_staunch_kingdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_knights_code
+		}
+		prerequisite = {
+			focus = GAN_develop_inside_trading
+		}
+		x = 18
+		y = 14
+
+	}
+	focus = {
+		id = GAN_clean_up_the_clans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_trebuchets_for_the_kingdom
+		}
+		prerequisite = {
+			focus = GAN_the_staunch_kingdom
+		}
+		x = 16
+		y = 15
+
+	}
+	focus = {
+		id = GAN_strengthen_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_staunch_kingdom
+		}
+		x = 18
+		y = 15
+
+	}
+	focus = {
+		id = GAN_enchanted_relics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_druids_of_gaunes
+		}
+		x = 10
+		y = 14
+
+	}
+	focus = {
+		id = GAN_vigorous_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_the_druids_of_gaunes
+		}
+		prerequisite = {
+			focus = GAN_coastal_defense_order
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = GAN_who_dares_to_defy_us
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_vigorous_army
+		}
+		prerequisite = {
+			focus = GAN_enchanted_relics
+		}
+		x = 12
+		y = 15
+
+	}
+	focus = {
+		id = GAN_defy_francia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_who_dares_to_defy_us
+		}
+		x = 10
+		y = 16
+
+	}
+	focus = {
+		id = GAN_defy_allemania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_who_dares_to_defy_us
+		}
+		x = 12
+		y = 16
+
+	}
+	focus = {
+		id = GAN_defy_armorica
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_who_dares_to_defy_us
+		}
+		prerequisite = {
+			focus = GAN_antagonize_armorica
+		}
+		x = 14
+		y = 16
+
+	}
+	focus = {
+		id = GAN_the_best_kingdom_of_the_continent
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_clean_up_the_clans
+		}
+		prerequisite = {
+			focus = GAN_strengthen_the_king
+		}
+		x = 17
+		y = 16
+
+	}
+	focus = {
+		id = GAN_joint_fight
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_help_from_the_franks
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = GAN_watch_from_afar
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_coordinated_tactics
+		}
+		prerequisite = {
+			focus = GAN_coordinated_tactics
+		}
+		prerequisite = {
+			focus = GAN_the_art_of_negotiations
+		}
+		x = 25
+		y = 14
+
+	}
+	focus = {
+		id = GAN_coordinated_tactics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_joint_fight
+		}
+		x = 25
+		y = 13
+
+	}
+	focus = {
+		id = GAN_attack_the_germanics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_command_from_afar
+			focus = GAN_watch_from_afar
+		}
+		x = 26
+		y = 15
+
+	}
+	focus = {
+		id = GAN_cornish_deal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_dispute_of_the_mont_tombe
+		}
+		x = 41
+		y = 13
+
+	}
+	focus = {
+		id = GAN_mare_britannicum_here_we_come
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_cornish_deal
+		}
+		x = 41
+		y = 14
+
+	}
+	focus = {
+		id = GAN_the_aquitanian_road
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_reassure_the_romans
+		}
+		x = 33
+		y = 14
+
+	}
+	focus = {
+		id = GAN_move_to_lutecia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = GAN_sequana_dockyards
+		}
+		prerequisite = {
+			focus = GAN_paved_roads_to_lutecia
+		}
+		x = 12
+		y = 6
+
+	}
+}
