@@ -10,6 +10,7 @@ state={
 	provinces={
 		2052 2053 2054 2055
 	}
-	manpower=0
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

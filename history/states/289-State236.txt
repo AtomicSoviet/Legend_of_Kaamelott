@@ -10,6 +10,7 @@ state={
 	provinces={
 		1831 1839 1840 1841 1842
 	}
-	manpower=0
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
