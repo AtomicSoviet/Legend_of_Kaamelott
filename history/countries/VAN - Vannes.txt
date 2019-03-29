@@ -1,4 +1,4 @@
-﻿capital = 3
+capital = 3
 
 set_research_slots = 1
 
@@ -29,12 +29,64 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Karadoc"
+  	name = "Gracian Kaherdin de Vannes"
   	desc = ""
-  	picture = "Portrait_VAN_Karadoc.dds"
+  	picture = "Portrait_VAN_Gracian.dds"
   	expire = "999.1.1"
   	ideology = traditional
   	traits = {
   	}
+  }
+
+  create_field_marshal = {
+    name = "Karadoc Freichfras dit le Vieux"
+    picture = "Portrait_VAN_Karadoc_Freichfras.dds"
+
+    traits = { }
+
+    skill = 3
+    attack_skill = 2
+  	defense_skill = 3
+  	planning_skill = 1
+  	logistics_skill = 5
+  }
+
+  create_field_marshal = {
+    name = "Alcuin Mériadec dit le Hardi"
+    picture = "Portrait_VAN_Alcuin.dds"
+
+    traits = { }
+
+    skill = 4
+    attack_skill = 4
+  	defense_skill = 2
+  	planning_skill = 2
+  	logistics_skill = 3
+  }
+
+  create_corps_commander = {
+     name = "Karadoc Freichfras dit le Jeune"
+     picture = "Portrait_VAN_Karadoc.dds"
+
+     traits = { }
+
+     skill = 2
+     attack_skill = 1
+     defense_skill = 2
+     planning_skill = 1
+     logistics_skill = 4
+  }
+
+  create_corps_commander = {
+     name = "Gracian Kaherdin de Vannes"
+     picture = "Portrait_VAN_Gracian.dds"
+
+     traits = { }
+
+     skill = 1
+     attack_skill = 1
+     defense_skill = 1
+     planning_skill = 2
+     logistics_skill = 2
   }
 }

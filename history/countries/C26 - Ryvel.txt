@@ -1,0 +1,40 @@
+﻿capital = 128
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C08_455"
+
+  set_politics = {
+      parties = {
+        roman = {
+          popularity = 6
+        }
+        barbarian = {
+          popularity = 2
+        }
+        clanic = {
+          popularity = 77
+        }
+        kingdom = {
+          popularity = 15
+        }
+      }
+
+  	ruling_party = kingdom
+  }
+
+  create_country_leader = {
+  	name = "Hervé de Rynel"
+  	desc = "ALEXANDER_DE_LEMOVINENS_DESC"
+  	picture = "Portrait_C26_Herve.dds"
+  	expire = "999.1.1"
+  	ideology = traditional
+  	traits = {
+  	}
+  }
+}
