@@ -1,0 +1,15 @@
+state={
+	id=80
+	name="STATE_80"
+
+	history={
+		owner = C16
+		add_core_of = C16
+	}
+
+	provinces={
+		97 2938 3461 4880 4917 4921 4936 4937 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

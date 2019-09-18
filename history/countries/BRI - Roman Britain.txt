@@ -1,4 +1,4 @@
-﻿capital = 62
+﻿capital = 299
 
 set_research_slots = 1
 
@@ -10,22 +10,14 @@ set_technology = {
   OOB = "BRI_455"
 
   set_politics = {
-      parties = {
-        roman = {
-          popularity = 45
-        }
-        barbarian = {
-          popularity = 0
-        }
-        clanic = {
-          popularity = 35
-        }
-        kingdom = {
-          popularity = 20
-        }
-      }
+    ruling_party = roman
+  }
 
-  	ruling_party = roman
+  set_popularities = {
+    roman = 45
+    barbarian = 0
+    clanic = 35
+    kingdom = 20
   }
 
   create_country_leader = {

@@ -1,0 +1,15 @@
+state={
+	id=95
+	name="STATE_95"
+
+	history={
+		owner = CLD
+		add_core_of = CLD
+	}
+	
+	provinces={
+		2141 2837 3249 4991 5006 5020 5035 5060 5061 5085 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

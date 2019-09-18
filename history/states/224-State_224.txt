@@ -1,0 +1,15 @@
+state={
+	id=224
+	name="STATE_224"
+
+	history={
+		owner = BRI
+		add_core_of = BRI
+	}
+	
+	provinces={
+		5565 5573 5603 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

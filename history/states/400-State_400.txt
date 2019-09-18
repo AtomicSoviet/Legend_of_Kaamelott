@@ -1,0 +1,15 @@
+state={
+	id=400
+	name="STATE_400"
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+	}
+
+	provinces={
+		1958 2270 3666 3809 3884 6021 6030 6041 6047 6050 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

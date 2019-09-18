@@ -1,0 +1,15 @@
+state={
+	id=301
+	name="STATE_301"
+
+	history={
+		owner = CNW
+		add_core_of = CNW
+	}
+	
+	provinces={
+		2371 5798 5814 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

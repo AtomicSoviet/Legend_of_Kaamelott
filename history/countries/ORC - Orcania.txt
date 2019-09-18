@@ -1,4 +1,4 @@
-﻿capital = 3
+﻿capital = 37
 
 set_research_slots = 1
 
@@ -10,22 +10,14 @@ set_technology = {
   OOB = "GAL_455"
 
   set_politics = {
-      parties = {
-        roman = {
-          popularity = 8
-        }
-        barbarian = {
-          popularity = 2
-        }
-        clanic = {
-          popularity = 13
-        }
-        kingdom = {
-          popularity = 75
-        }
-      }
+    ruling_party = kingdom
+  }
 
-  	ruling_party = kingdom
+  set_popularities = {
+    roman = 8
+    barbarian = 2
+    clanic = 15
+    kingdom = 75
   }
 
   create_country_leader = {

@@ -1,0 +1,15 @@
+state={
+	id=99
+	name="STATE_99"
+
+	history={
+		owner = CRM
+		add_core_of = CRM
+	}
+
+	provinces={
+		3358 5011 5036 5041 5057 5065 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

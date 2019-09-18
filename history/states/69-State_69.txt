@@ -1,0 +1,15 @@
+state={
+	id=69
+	name="STATE_69"
+
+	history={
+		owner = C18
+		add_core_of = C18
+	}
+	
+	provinces={
+		2294 2335 4804 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

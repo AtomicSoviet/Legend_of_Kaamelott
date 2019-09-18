@@ -1,0 +1,15 @@
+state={
+	id=64
+	name="STATE_64"
+
+	history={
+		owner = PCT
+		add_core_of = PCT
+	}
+	
+	provinces={
+		2002 3143 3501 3728 4770 4782 4787 4800 4801 4811 4812 4823 4834 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

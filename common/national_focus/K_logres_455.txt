@@ -1,0 +1,1491 @@
+focus_tree = {
+	id = logres_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LOG
+		}
+	}
+	default = yes
+	focus = {
+		id = LOG_the_return_of_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = LOG_open_up_the_logrian_military_academy
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 41
+		y = 0
+
+	}
+	focus = {
+		id = LOG_the_camelot_castle
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 41
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_wedding
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_return_of_the_king
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = LOG_the_sword
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_return_of_the_king
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = LOG_sir_arthur_king_of_the_britons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_wedding
+		}
+		prerequisite = {
+			focus = LOG_the_sword
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = LOG_organize_the_federation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_sir_arthur_king_of_the_britons
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_5
+		text = LOG_the_common_currency_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_federation
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = LOG_the_briton_market
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_5
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = LOG_accept_roman_goods
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_briton_market
+		}
+		mutually_exclusive = {
+			focus = LOG_keep_it_briton
+		}
+		x = 0
+		y = 6
+
+	}
+	focus = {
+		id = LOG_keep_it_briton
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_briton_market
+		}
+		mutually_exclusive = {
+			focus = LOG_accept_roman_goods
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = LOG_unify_the_kingdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_federation
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = LOG_the_clans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_unify_the_kingdom
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = LOG_negotiations_by_sword
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_clans
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = LOG_tight_negotiations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_clans
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = LOG_meet_peasant_repreentatives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_unify_the_kingdom
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = LOG_modernize_the_kingdoms_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_meet_peasant_repreentatives
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = LOG_recognize_the_interested
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_tight_negotiations
+		}
+		prerequisite = {
+			focus = LOG_modernize_the_kingdoms_infrastructure
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_common_language
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_federation
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = LOG_organize_the_quest
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_federation
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = LOG_review_the_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_quest
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = LOG_complete_administrative_rework
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_review_the_laws
+		}
+		prerequisite = {
+			focus = LOG_the_common_language
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = LOG_paved_road_networks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_modernize_the_kingdoms_infrastructure
+		}
+		prerequisite = {
+			focus = LOG_complete_administrative_rework
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = LOG_compile_the_texts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_review_the_laws
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = LOG_the_great_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_quest
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = LOG_relative_romanization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_great_plan
+		}
+		mutually_exclusive = {
+			focus = LOG_the_second_roman_empire
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = LOG_modern_law_making
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_compile_the_texts
+		}
+		prerequisite = {
+			focus = LOG_relative_romanization
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = LOG_make_concessions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_relative_romanization
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_second_roman_empire
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_great_plan
+		}
+		mutually_exclusive = {
+			focus = LOG_relative_romanization
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = LOG_shut_the_conservatives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_second_roman_empire
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_just
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_shut_the_conservatives
+			focus = LOG_make_concessions
+		}
+		x = 24
+		y = 8
+
+	}
+	focus = {
+		id = LOG_druidic_traditions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_just
+		}
+		mutually_exclusive = {
+			focus = LOG_new_faiths
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = LOG_acceptable_paganism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_druidic_traditions
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = LOG_new_faiths
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_just
+		}
+		mutually_exclusive = {
+			focus = LOG_druidic_traditions
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = LOG_spread_the_christian_ways
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_new_faiths
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = LOG_build_chruches
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_spread_the_christian_ways
+		}
+		x = 26
+		y = 11
+
+	}
+	focus = {
+		id = LOG_formalize_knighthood
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_organize_the_quest
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = LOG_train_new_squires
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_formalize_knighthood
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = LOG_christianization_of_knighthood
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_train_new_squires
+		}
+		x = 27
+		y = 7
+
+	}
+	focus = {
+		id = LOG_knighting_ceremonies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_formalize_knighthood
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = LOG_update_the_list
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_knighting_ceremonies
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_holy_fight
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_shut_the_conservatives
+		}
+		prerequisite = {
+			focus = LOG_christianization_of_knighthood
+		}
+		prerequisite = {
+			focus = LOG_update_the_list
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = LOG_ballistics_studies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_open_up_the_logrian_military_academy
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = LOG_army_organizations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_open_up_the_logrian_military_academy
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = LOG_defenses_construction_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_ballistics_studies
+		}
+		prerequisite = {
+			focus = LOG_army_organizations
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = LOG_invest_in_catapults
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_ballistics_studies
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = LOG_siege_drills
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_defenses_construction_plan
+		}
+		prerequisite = {
+			focus = LOG_invest_in_catapults
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = LOG_focus_on_the_defenses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_siege_drills
+		}
+		mutually_exclusive = {
+			focus = LOG_buy_new_beliers
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = LOG_study_modern_designs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_invest_in_catapults
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = LOG_offensive_planning
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_invest_in_catapults
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = LOG_buy_new_beliers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_offensive_planning
+		}
+		mutually_exclusive = {
+			focus = LOG_focus_on_the_defenses
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = LOG_the_logrian_strategy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_buy_new_beliers
+			focus = LOG_focus_on_the_defenses
+		}
+		prerequisite = {
+			focus = LOG_study_modern_designs
+		}
+		x = 36
+		y = 5
+
+	}
+	focus = {
+		id = LOG_hire_new_flagbearers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_army_organizations
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = LOG_standardize_military_language
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_hire_new_flagbearers
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = LOG_army_moderizations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_open_up_the_logrian_military_academy
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = LOG_logistics_training_programs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_army_moderizations
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = LOG_tactical_courses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_logistics_training_programs
+		}
+		prerequisite = {
+			focus = LOG_hire_new_flagbearers
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = LOG_distribute_war_chief_titles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_standardize_military_language
+		}
+		prerequisite = {
+			focus = LOG_tactical_courses
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = LOG_leodagian_strategy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_distribute_war_chief_titles
+		}
+		prerequisite = {
+			focus = LOG_buy_new_beliers
+		}
+		mutually_exclusive = {
+			focus = LOG_arthurian_strategy
+			focus = LOG_lancelian_strategy
+		}
+		x = 39
+		y = 5
+
+	}
+	focus = {
+		id = LOG_cartographic_effort
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_open_up_the_logrian_military_academy
+		}
+		x = 46
+		y = 1
+
+	}
+	focus = {
+		id = LOG_battle_codes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_cartographic_effort
+		}
+		x = 44
+		y = 2
+
+	}
+	focus = {
+		id = LOG_new_battle_codes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_battle_codes
+		}
+		prerequisite = {
+			focus = LOG_logistics_training_programs
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = LOG_chart_the_coastlines
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_cartographic_effort
+		}
+		x = 46
+		y = 2
+
+	}
+	focus = {
+		id = LOG_prepare_naval_manoeuvres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_chart_the_coastlines
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = LOG_advanced_battle_codes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_new_battle_codes
+		}
+		prerequisite = {
+			focus = LOG_prepare_naval_manoeuvres
+		}
+		mutually_exclusive = {
+			focus = LOG_deal_with_what_we_have
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = LOG_lancelian_strategy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_distribute_war_chief_titles
+		}
+		prerequisite = {
+			focus = LOG_advanced_battle_codes
+		}
+		mutually_exclusive = {
+			focus = LOG_leodagian_strategy
+			focus = LOG_arthurian_strategy
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = LOG_end_local_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_complete_administrative_rework
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = LOG_clanic_listings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_clans
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = LOG_find_the_leaders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_negotiations_by_sword
+			focus = LOG_tight_negotiations
+		}
+		prerequisite = {
+			focus = LOG_clanic_listings
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = LOG_brittanias_destiny
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_call_carmelide
+		}
+		prerequisite = {
+			focus = LOG_the_breton_nation
+		}
+		mutually_exclusive = {
+			focus = LOG_a_federation_of_equals
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = LOG_a_federation_of_equals
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_breton_nation
+		}
+		prerequisite = {
+			focus = LOG_appeasement_through_money
+		}
+		mutually_exclusive = {
+			focus = LOG_brittanias_destiny
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = LOG_find_the_funds
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_tight_negotiations
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = LOG_formalize_the_taxation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = newfocus_5
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = LOG_revive_trading_posts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_accept_roman_goods
+			focus = LOG_keep_it_briton
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = LOG_have_the_nobles_pay
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_formalize_the_taxation
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = LOG_tax_the_kingdoms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_have_the_nobles_pay
+		}
+		mutually_exclusive = {
+			focus = LOG_tax_the_peasants
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = LOG_tax_the_peasants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_have_the_nobles_pay
+		}
+		mutually_exclusive = {
+			focus = LOG_tax_the_kingdoms
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_logrian_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_revive_trading_posts
+		}
+		prerequisite = {
+			focus = LOG_tax_the_kingdoms
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = LOG_new_sources_of_wealth
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_tax_the_kingdoms
+			focus = LOG_tax_the_peasants
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = LOG_propose_the_currency
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_logrian_economy
+		}
+		prerequisite = {
+			focus = LOG_new_sources_of_wealth
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = LOG_defy_the_recalcitrants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_negotiations_by_sword
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = LOG_the_nobles_help
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_have_the_nobles_pay
+		}
+		prerequisite = {
+			focus = LOG_negotiations_by_sword
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = LOG_against_our_mighty_armies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_defy_the_recalcitrants
+		}
+		prerequisite = {
+			focus = LOG_find_the_leaders
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = LOG_a_clanic_cooperative
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_find_the_leaders
+		}
+		prerequisite = {
+			focus = LOG_find_the_funds
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = LOG_reorganize_the_ducal_claims
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_nobles_help
+		}
+		prerequisite = {
+			focus = LOG_defy_the_recalcitrants
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = LOG_promote_new_barons_and_counts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_recognize_the_interested
+		}
+		prerequisite = {
+			focus = LOG_find_the_funds
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = LOG_call_carmelide
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_against_our_mighty_armies
+		}
+		prerequisite = {
+			focus = LOG_reorganize_the_ducal_claims
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = LOG_appeasement_through_money
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_a_clanic_cooperative
+		}
+		prerequisite = {
+			focus = LOG_promote_new_barons_and_counts
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = LOG_the_breton_nation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_against_our_mighty_armies
+		}
+		prerequisite = {
+			focus = LOG_a_clanic_cooperative
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = LOG_the_briton_charter
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_modern_law_making
+		}
+		prerequisite = {
+			focus = LOG_make_concessions
+		}
+		prerequisite = {
+			focus = LOG_end_local_laws
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = LOG_the_road_to_carmelide
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_paved_road_networks
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = LOG_welsh_developments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_road_to_carmelide
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = LOG_caledonian_developments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_road_to_carmelide
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = LOG_the_piers_of_caerdydd
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_welsh_developments
+		}
+		mutually_exclusive = {
+			focus = LOG_the_northern_connection
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = LOG_the_northern_connection
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_caledonian_developments
+		}
+		mutually_exclusive = {
+			focus = LOG_the_piers_of_caerdydd
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = LOG_follow_the_land_routes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_cartographic_effort
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = LOG_setup_northern_camps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_follow_the_land_routes
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = LOG_deal_with_what_we_have
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_prepare_naval_manoeuvres
+		}
+		prerequisite = {
+			focus = LOG_setup_northern_camps
+		}
+		mutually_exclusive = {
+			focus = LOG_advanced_battle_codes
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = LOG_the_foundations_of_the_briton_navy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_advanced_battle_codes
+			focus = LOG_deal_with_what_we_have
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = LOG_arthurian_strategy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_distribute_war_chief_titles
+		}
+		mutually_exclusive = {
+			focus = LOG_leodagian_strategy
+			focus = LOG_lancelian_strategy
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = LOG_find_the_location
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_camelot_castle
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = LOG_find_the_materials
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_camelot_castle
+		}
+		x = 41
+		y = 8
+
+	}
+	focus = {
+		id = LOG_find_the_builders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_camelot_castle
+		}
+		x = 43
+		y = 8
+
+	}
+	focus = {
+		id = LOG_begin_construction
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_find_the_location
+		}
+		prerequisite = {
+			focus = LOG_find_the_materials
+		}
+		prerequisite = {
+			focus = LOG_find_the_builders
+		}
+		x = 41
+		y = 9
+
+	}
+	focus = {
+		id = LOG_the_eastern_wall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_tactical_considerations
+		}
+		x = 40
+		y = 11
+
+	}
+	focus = {
+		id = LOG_the_foundations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_begin_construction
+		}
+		x = 42
+		y = 10
+
+	}
+	focus = {
+		id = LOG_tactical_considerations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_begin_construction
+		}
+		x = 40
+		y = 10
+
+	}
+	focus = {
+		id = LOG_the_layout
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_foundations
+		}
+		x = 42
+		y = 11
+
+	}
+	focus = {
+		id = LOG_monitor_the_bugdet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_foundations
+		}
+		x = 44
+		y = 11
+
+	}
+	focus = {
+		id = LOG_consult_new_architects
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_layout
+		}
+		prerequisite = {
+			focus = LOG_monitor_the_bugdet
+		}
+		x = 43
+		y = 12
+
+	}
+	focus = {
+		id = LOG_the_western_wall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_tactical_considerations
+		}
+		x = 38
+		y = 11
+
+	}
+	focus = {
+		id = LOG_lookout_towers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_western_wall
+		}
+		prerequisite = {
+			focus = LOG_the_eastern_wall
+		}
+		x = 39
+		y = 12
+
+	}
+	focus = {
+		id = LOG_the_main_court
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_the_eastern_wall
+		}
+		prerequisite = {
+			focus = LOG_the_layout
+		}
+		x = 41
+		y = 12
+
+	}
+	focus = {
+		id = LOG_the_marvel_of_logres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_lookout_towers
+		}
+		prerequisite = {
+			focus = LOG_consult_new_architects
+		}
+		prerequisite = {
+			focus = LOG_the_main_court
+		}
+		x = 41
+		y = 13
+
+	}
+	focus = {
+		id = LOG_fuse_new_and_old
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_druidic_traditions
+			focus = LOG_new_faiths
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = LOG_find_religious_compromises
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_fuse_new_and_old
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = LOG_our_new_offical_religion
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_find_religious_compromises
+		}
+		prerequisite = {
+			focus = LOG_druidism_and_monotheism
+		}
+		prerequisite = {
+			focus = LOG_build_chruches
+		}
+		x = 24
+		y = 12
+
+	}
+	focus = {
+		id = LOG_druidism_and_monotheism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = LOG_acceptable_paganism
+		}
+		x = 22
+		y = 11
+
+	}
+}

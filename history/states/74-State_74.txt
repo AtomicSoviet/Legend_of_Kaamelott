@@ -1,0 +1,15 @@
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		owner = C15
+		add_core_of = C15
+	}
+	
+	provinces={
+		1529 2482 2631 3345 3537 3822 4833 4853 4861 4885 4896 4905 4913 4963 4990 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

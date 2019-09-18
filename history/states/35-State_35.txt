@@ -1,0 +1,15 @@
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = ORC
+		add_core_of = ORC
+	}
+	
+	provinces={
+		787 1513 2280 2594 3551 3649 3796 4463 4464 4490 4509 4510 4531 4542 4550 4576 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

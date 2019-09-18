@@ -1,0 +1,15 @@
+state={
+	id=49
+	name="STATE_49"
+
+	history={
+		owner = PCT
+		add_core_of = PCT
+	}
+	
+	provinces={
+		429 648 2295 2922 3293 3667 4615 4621 4624 4635 4643 4662 4685 4689 4695 4708 4733 4739 4757 4775 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

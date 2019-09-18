@@ -10,22 +10,14 @@ set_technology = {
   OOB = "GAL_455"
 
   set_politics = {
-      parties = {
-        roman = {
-          popularity = 20
-        }
-        barbarian = {
-          popularity = 0
-        }
-        clanic = {
-          popularity = 8
-        }
-        kingdom = {
-          popularity = 72
-        }
-      }
+    ruling_party = kingdom
+  }
 
-  	ruling_party = kingdom
+  set_popularities = {
+    roman = 20
+    barbarian = 0
+    clanic = 8
+    kingdom = 72
   }
 
   create_country_leader = {

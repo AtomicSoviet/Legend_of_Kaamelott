@@ -1,0 +1,15 @@
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = C02
+		add_core_of = C02
+	}
+	
+	provinces={
+		238 3112 3438 5384 5387 5430 5431 5435 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

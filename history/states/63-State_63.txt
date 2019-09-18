@@ -1,0 +1,15 @@
+state={
+	id=63
+	name="STATE_63"
+
+	history={
+		owner = C13
+		add_core_of = C13
+	}
+
+	provinces={
+		208 380 1543 2001 2755 2790 3146 3490 4773 4786 4790 4810 4820 4821 4837 4847 4856 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

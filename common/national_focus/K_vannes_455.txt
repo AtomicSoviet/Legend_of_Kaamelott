@@ -1,0 +1,512 @@
+focus_tree = {
+	id = vannes_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VAN
+		}
+	}
+	default = no
+	focus = {
+		id = VAN_the_vannes_crisis
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = VAN_the_armorican_conflict
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = VAN_the_freichfras_policies
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = VAN_the_meriadec_policies
+			focus = VAN_the_kaherdin_policies
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = VAN_the_meriadec_policies
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = VAN_the_freichfras_policies
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = VAN_the_kaherdin_policies
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = VAN_the_freichfras_policies
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = VAN_defensive_tactics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_meriadec_policies
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = VAN_coastal_fortifications
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_defensive_tactics
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = VAN_fortress_vannes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_coastal_fortifications
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = VAN_save_our_politics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_vannes_crisis
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = VAN_consult_the_elders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_save_our_politics
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = VAN_war_vessels
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_meriadec_policies
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = VAN_train_among_the_briton_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_war_vessels
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = VAN_save_our_food
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_vannes_crisis
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = VAN_the_knights_of_vannes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_meriadec_policies
+			focus = VAN_the_freichfras_policies
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = VAN_build_a_great_academy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_knights_of_vannes
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = VAN_professionnal_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_train_among_the_briton_army
+		}
+		prerequisite = {
+			focus = VAN_build_a_great_academy
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = VAN_build_an_high_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_professionnal_army
+		}
+		prerequisite = {
+			focus = VAN_fortress_vannes
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = VAN_save_our_assets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_vannes_crisis
+			focus = VAN_the_armorican_conflict
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = VAN_reassure_the_romans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_save_our_assets
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = VAN_honor_the_druids
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_freichfras_policies
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = VAN_honor_the_pact_of_kings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_honor_the_druids
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = VAN_create_trained_militias
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_honor_the_pact_of_kings
+		}
+		prerequisite = {
+			focus = VAN_build_a_great_academy
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = VAN_protect_our_borders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_armorican_conflict
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = VAN_train_militias
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_armorican_conflict
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = VAN_secure_our_place_in_armorica
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_protect_our_borders
+		}
+		prerequisite = {
+			focus = VAN_train_militias
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = VAN_the_final_decision
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_consult_the_elders
+		}
+		prerequisite = {
+			focus = VAN_reassure_the_romans
+		}
+		prerequisite = {
+			focus = VAN_save_our_food
+		}
+		prerequisite = {
+			focus = VAN_secure_our_place_in_armorica
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = VAN_a_nation_of_traditions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_freichfras_policies
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = VAN_peace_and_feasts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_a_nation_of_traditions
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = VAN_traditionnal_celebrations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_freichfras_policies
+			focus = VAN_the_kaherdin_policies
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = VAN_dust_the_old_code_of_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_traditionnal_celebrations
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = VAN_this_is_how_we_live
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_dust_the_old_code_of_laws
+		}
+		prerequisite = {
+			focus = VAN_peace_and_feasts
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = VAN_the_armorican_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_create_trained_militias
+		}
+		prerequisite = {
+			focus = VAN_this_is_how_we_live
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = VAN_modernism_and_traditions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_kaherdin_policies
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = VAN_stregthen_the_new_nobility
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_modernism_and_traditions
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = VAN_romanized_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_stregthen_the_new_nobility
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = VAN_open_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_romanized_laws
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = VAN_the_carmeliard_way
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_professionnal_army
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = VAN_the_aquitanian_connection
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_kaherdin_policies
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = VAN_all_paths_leads_to_rome
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_the_aquitanian_connection
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = VAN_between_brittania_and_roma
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_all_paths_leads_to_rome
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = VAN_denounce_the_barbaric_kingdoms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_romanized_laws
+		}
+		prerequisite = {
+			focus = VAN_between_brittania_and_roma
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = VAN_anti_roman_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_build_an_high_command
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = VAN_arthurian_golden_age
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = VAN_denounce_the_barbaric_kingdoms
+		}
+		x = 14
+		y = 10
+
+	}
+}

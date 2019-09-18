@@ -1,0 +1,135 @@
+focus_tree = {
+	id = brittania_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BRI
+		}
+	}
+	default = yes
+	focus = {
+		id = BRI_another_year_another_struggle
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = BRI_adrian_wall_patrols
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_another_year_another_struggle
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = BRI_adapt_our_military_tactics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_adrian_wall_patrols
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = BRI_continue_the_garrisons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_adrian_wall_patrols
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = BRI_salustius_proposal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_another_year_another_struggle
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = BRI_the_roman_briton
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_salustius_proposal
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = BRI_monitor_the_clans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_another_year_another_struggle
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = BRI_trade_deals_with_the_welsh
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_monitor_the_clans
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = BRI_dux_totius_brittaniae_arthurus
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_the_roman_briton
+		}
+		mutually_exclusive = {
+			focus = BRI_dux_totius_brittaniae_macrinius
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = BRI_dux_totius_brittaniae_macrinius
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_the_roman_briton
+		}
+		mutually_exclusive = {
+			focus = BRI_dux_totius_brittaniae_arthurus
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = BRI_carmeliard_defensives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = BRI_monitor_the_clans
+		}
+		x = 10
+		y = 2
+
+	}
+}
