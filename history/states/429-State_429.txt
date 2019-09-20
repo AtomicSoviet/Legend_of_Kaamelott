@@ -1,6 +1,12 @@
 state={
 	id=429
 	name="STATE_429"
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+	}
+	
 	provinces={
 		1165 1459 2543 2592 2996 3153 6168 6178 6198 6209 6212 6218 
 	}

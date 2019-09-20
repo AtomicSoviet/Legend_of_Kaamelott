@@ -1,6 +1,12 @@
 state={
 	id=374
 	name="STATE_374"
+
+	history={
+		owner = C24
+		add_core_of = C24
+	}
+
 	provinces={
 		96 1893 3238 5947 5966 5994 
 	}

@@ -1,6 +1,12 @@
 state={
 	id=617
 	name="STATE_617"
+
+	history={
+		owner = AQT
+		add_core_of = AQT
+	}
+	
 	provinces={
 		47 1199 1484 2668 3109 3191 3450 7322 7336 7337 7353 7385 7402 7419 7422 7435 7461 7527 
 	}

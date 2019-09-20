@@ -1,6 +1,12 @@
 state={
 	id=517
 	name="STATE_517"
+
+	history={
+		owner = BNC
+		add_core_of = BNC
+	}
+	
 	provinces={
 		220 2118 2941 4004 6619 6650 6660 6661 6684 6695 
 	}

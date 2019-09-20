@@ -1,6 +1,12 @@
 state={
 	id=426
 	name="STATE_426"
+
+	history={
+		owner = BRT
+		add_core_of = BRT
+	}
+	
 	provinces={
 		2383 2516 3224 3721 3861 6130 6137 6148 6162 6199 
 	}

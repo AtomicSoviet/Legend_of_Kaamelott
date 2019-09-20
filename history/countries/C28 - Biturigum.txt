@@ -1,0 +1,32 @@
+﻿capital = 128
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C08_455"
+
+  set_politics = {
+    ruling_party = kingdom
+  }
+
+  set_popularities = {
+    roman = 40
+    barbarian = 0
+    clanic = 15
+    kingdom = 45
+  }
+
+  create_country_leader = {
+  	name = "Claudas de Biturige"
+  	desc = "CLAUDAS_DE_BITURIGE_DESC"
+  	picture = "Portrait_C28_Claudas.dds"
+  	expire = "999.1.1"
+  	ideology = traditional
+  	traits = {
+  	}
+  }
+}

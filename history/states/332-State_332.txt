@@ -1,6 +1,12 @@
 state={
 	id=332
 	name="STATE_332"
+
+	history={
+		owner = FRK
+		add_core_of = FRK
+	}
+
 	provinces={
 		1761 2320 3435 5854 5874 5890 5896 
 	}

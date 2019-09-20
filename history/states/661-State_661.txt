@@ -1,6 +1,12 @@
 state={
 	id=661
 	name="STATE_661"
+
+	history={
+		owner = VSG
+		add_core_of = VSG
+	}
+	
 	provinces={
 		139 1334 1936 3179 7693 7697 7714 7718 7725 7737 7748 7751 7758 7759 7767 7779 7800 
 	}
