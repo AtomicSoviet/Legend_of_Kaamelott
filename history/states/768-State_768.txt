@@ -1,9 +1,16 @@
 state={
 	id=768
 	name="STATE_768"
+
+	history={
+		owner = SPQ
+		add_core_of = SPQ
+	}
+
 	provinces={
 		483 1497 1967 2298 2576 2704 2767 3498 8426 8440 8443 8447 8451 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

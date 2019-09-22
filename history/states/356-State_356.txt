@@ -1,9 +1,16 @@
 state={
 	id=356
 	name="STATE_356"
+
+	history={
+		owner = AGL
+		add_core_of = AGL
+	}
+	
 	provinces={
 		872 5924 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

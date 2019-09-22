@@ -1,9 +1,16 @@
 state={
 	id=199
 	name="STATE_199"
+
+	history={
+		owner = SAX
+		add_core_of = SAX
+	}
+	
 	provinces={
 		1449 3609 5481 5502 5522 5523 5532 5546 5580 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,16 @@
 state={
 	id=793
 	name="STATE_793"
+
+	history={
+		owner = VND
+		add_core_of = VND
+	}
+	
 	provinces={
 		41 172 570 921 943 1125 1471 1475 1670 1906 2281 2328 2358 2617 2909 3023 3517 3624 3844 3924 3986 8565 8583 8600 8602 8607 8618 8630 8636 8646 8649 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

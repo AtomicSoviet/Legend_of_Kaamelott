@@ -1,9 +1,16 @@
 state={
 	id=386
 	name="STATE_386"
+
+	history={
+		owner = FRK
+		add_core_of = FRK
+	}
+	
 	provinces={
 		772 1197 2593 3887 5985 5993 6039 6080 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

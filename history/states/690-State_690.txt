@@ -1,9 +1,16 @@
 state={
 	id=690
 	name="STATE_690"
+
+	history={
+		owner = VND
+		add_core_of = VND
+	}
+	
 	provinces={
 		2224 2739 3754 7890 7900 7919 7943 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

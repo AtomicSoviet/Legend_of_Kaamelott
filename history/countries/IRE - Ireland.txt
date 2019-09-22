@@ -10,7 +10,7 @@ set_technology = {
   OOB = "IRE_455"
 
   set_politics = {
-    ruling_party = kingdom
+    ruling_party = clanic
   }
 
   set_popularities = {
@@ -21,7 +21,17 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Ketchatar d'Irlande"
+  	name = "Ketchatar"
+  	desc = ""
+  	picture = "Portrait_IRE_Ketchatar.dds"
+  	expire = "999.1.1"
+  	ideology = decentralized
+  	traits = {
+  	}
+  }
+
+  create_country_leader = {
+  	name = "Ketchatar I of Ireland"
   	desc = ""
   	picture = "Portrait_IRE_Ketchatar.dds"
   	expire = "999.1.1"

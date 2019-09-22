@@ -1,9 +1,16 @@
 state={
 	id=677
 	name="STATE_677"
+
+	history={
+		owner = SUB
+		add_core_of = SUB
+	}
+	
 	provinces={
 		11 109 662 769 1279 1351 1384 1493 3092 3299 7824 7847 7868 7891 7912 7944 8059 8063 8086 8089 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

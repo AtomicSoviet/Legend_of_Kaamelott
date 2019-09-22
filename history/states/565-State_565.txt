@@ -3,13 +3,14 @@ state={
 	name="STATE_565"
 
 	history={
-		owner = AQT
-		add_core_of = AQT
+		owner = C25
+		add_core_of = C25
 	}
 
 	provinces={
 		157 2104 3374 6956 6962 6991 6992 7008 7036 7037 7042 7054 7084 7085 7098 7134 7143 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

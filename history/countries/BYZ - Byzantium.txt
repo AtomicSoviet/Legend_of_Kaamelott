@@ -7,47 +7,26 @@ set_technology = {
 
 455.1.1 = {
   set_convoys = 25
-  OOB = "GAL_455"
+  OOB = "BYZ_455"
 
   set_politics = {
-    ruling_party = clanic
+    ruling_party = roman
   }
 
   set_popularities = {
-    roman = 2
-    barbarian = 13
-    clanic = 65
-    kingdom = 20
+    roman = 82
+    barbarian = 0
+    clanic = 0
+    kingdom = 18
   }
 
   create_country_leader = {
-  	name = "Pellinor"
+  	name = "Leo I"
   	desc = ""
-  	picture = "Portrait_GAL_Pellinor.dds"
+  	picture = "Portrait_BYZ_Leo_I.dds"
   	expire = "999.1.1"
-  	ideology = communitarian
+  	ideology = eastern_roman
   	traits = {
   	}
-  }
-
-  create_country_leader = {
-    name = "Pellinor"
-    desc = ""
-    picture = "Portrait_GAL_Pellinor.dds"
-    expire = "999.1.1"
-    ideology = traditional
-    traits = {
-    }
-  }
-
-  create_corps_commander = {
-    name = "Perceval"
-    picture = "Portrait_GAL_Perceval.dds"
-    traits = { }
-    skill = 2
-    attack_skill = 1
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
   }
 }

@@ -21,7 +21,7 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Alemanni Leader"
+  	name = "Gibuld"
   	desc = ""
   	picture = ""
   	expire = "999.1.1"

@@ -3,13 +3,14 @@ state={
 	name="STATE_487"
 
 	history={
-		owner = BNC
-		add_core_of = BNC
+		owner = ALE
+		add_core_of = ALE
 	}
 	
 	provinces={
 		1603 3758 6471 6501 6510 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

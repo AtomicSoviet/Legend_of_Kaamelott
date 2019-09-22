@@ -1,9 +1,16 @@
 state={
 	id=372
 	name="STATE_372"
+
+	history={
+		owner = HNS
+		add_core_of = HNS
+	}
+	
 	provinces={
 		186 1245 1394 2697 6024 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

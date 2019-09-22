@@ -1,9 +1,16 @@
 state={
 	id=524
 	name="STATE_524"
+
+	history={
+		owner = OST
+		add_core_of = OST
+	}
+	
 	provinces={
 		627 1191 2385 3300 6637 6707 6751 6772 6813 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

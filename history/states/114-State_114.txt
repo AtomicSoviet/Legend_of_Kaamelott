@@ -3,13 +3,14 @@ state={
 	name="STATE_114"
 
 	history={
-		owner = CLD
-		add_core_of = CLD
+		owner = C37
+		add_core_of = C37
 	}
 	
 	provinces={
 		2937 5116 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

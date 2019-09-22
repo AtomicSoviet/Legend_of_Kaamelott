@@ -1,9 +1,16 @@
 state={
 	id=818
 	name="STATE_818"
+
+	history={
+		owner = SPQ
+		add_core_of = SPQ
+	}
+	
 	provinces={
 		382 624 1715 1790 1854 3483 3675 8861 8864 8867 8874 8878 8879 8882 8885 8890 8901 8903 8914 8915 8916 8920 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

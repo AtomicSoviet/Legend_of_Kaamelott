@@ -1,9 +1,16 @@
 state={
 	id=806
 	name="STATE_806"
+
+	history={
+		owner = MOO
+		add_core_of = MOO
+	}
+	
 	provinces={
 		176 317 522 651 1265 1503 1534 2381 8716 8726 8735 8739 8748 8774 8790 8809 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

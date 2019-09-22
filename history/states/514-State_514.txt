@@ -1,9 +1,16 @@
 state={
 	id=514
 	name="STATE_514"
+
+	history={
+		owner = BRG
+		add_core_of = BRG
+	}
+	
 	provinces={
 		144 1434 2991 3427 3547 3622 3885 4079 6651 6666 6677 6686 6711 6728 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

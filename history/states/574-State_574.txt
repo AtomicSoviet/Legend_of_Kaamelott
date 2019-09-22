@@ -1,9 +1,16 @@
 state={
 	id=574
 	name="STATE_574"
+
+	history={
+		owner = BYZ
+		add_core_of = BYZ
+	}
+	
 	provinces={
 		2286 3051 3545 6961 7007 7014 7024 7061 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

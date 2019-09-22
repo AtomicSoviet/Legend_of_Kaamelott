@@ -1,9 +1,16 @@
 state={
 	id=408
 	name="STATE_408"
+
+	history={
+		owner = LMB
+		add_core_of = LMB
+	}
+	
 	provinces={
 		695 741 2496 3346 6059 6109 6127 6154 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,32 @@
+﻿capital = 3
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "TET_455"
+
+  set_politics = {
+    ruling_party = barbarian
+  }
+
+  set_popularities = {
+    roman = 0
+    barbarian = 88
+    clanic = 12
+    kingdom = 0
+  }
+
+  create_country_leader = {
+  	name = "Teuton Leader"
+  	desc = ""
+  	picture = ""
+  	expire = "999.1.1"
+  	ideology = germanic
+  	traits = {
+  	}
+  }
+}

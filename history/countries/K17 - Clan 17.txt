@@ -1,4 +1,4 @@
-﻿capital = 3
+﻿capital = 88
 
 set_research_slots = 1
 
@@ -7,25 +7,25 @@ set_technology = {
 
 455.1.1 = {
   set_convoys = 25
-  OOB = "BUR_455"
+  OOB = "PLACEHOLDER_455"
 
   set_politics = {
-    ruling_party = barbarian
+    ruling_party = clanic
   }
 
   set_popularities = {
     roman = 0
-    barbarian = 100
-    clanic = 0
-    kingdom = 0
+    barbarian = 5
+    clanic = 56
+    kingdom = 39
   }
 
   create_country_leader = {
-  	name = "Gundobad"
+  	name = "Clan 17 Leader"
   	desc = ""
   	picture = ""
   	expire = "999.1.1"
-  	ideology = germanic
+  	ideology = despotic
   	traits = {
   	}
   }

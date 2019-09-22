@@ -1,9 +1,16 @@
 state={
 	id=328
 	name="STATE_328"
+
+	history={
+		owner = TET
+		add_core_of = TET
+	}
+	
 	provinces={
 		860 1105 2042 2887 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

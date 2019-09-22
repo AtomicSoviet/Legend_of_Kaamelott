@@ -1,9 +1,16 @@
 state={
 	id=820
 	name="STATE_820"
+
+	history={
+		owner = TUG
+		add_core_of = TUG
+	}
+	
 	provinces={
 		106 478 693 1045 1050 1683 2023 2890 8889 8927 8932 8933 8955 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

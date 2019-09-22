@@ -1,9 +1,16 @@
 state={
 	id=750
 	name="STATE_750"
+
+	history={
+		owner = VSG
+		add_core_of = VSG
+	}
+	
 	provinces={
 		718 822 883 1095 1285 1913 2898 3966 8310 8315 8326 8337 8355 8385 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

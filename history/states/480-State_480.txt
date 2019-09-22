@@ -1,9 +1,16 @@
 state={
 	id=480
 	name="STATE_480"
+
+	history={
+		owner = ALE
+		add_core_of = ALE
+	}
+	
 	provinces={
 		165 564 2427 2448 2467 3475 3560 3733 6405 6427 6466 6502 6505 6530 6550 6595 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

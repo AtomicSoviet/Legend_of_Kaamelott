@@ -1,9 +1,16 @@
 state={
 	id=798
 	name="STATE_798"
+
+	history={
+		owner = VND
+		add_core_of = VND
+	}
+
 	provinces={
 		3724 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,16 @@
 state={
 	id=781
 	name="STATE_781"
+
+	history={
+		owner = LUS
+		add_core_of = LUS
+	}
+
 	provinces={
 		351 1102 1395 1487 1707 3580 8482 8532 8546 8548 8551 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

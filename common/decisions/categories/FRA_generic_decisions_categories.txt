@@ -1,0 +1,6 @@
+FRA_generic_decisions = {
+	
+	allowed = {
+		always = yes
+	}
+}

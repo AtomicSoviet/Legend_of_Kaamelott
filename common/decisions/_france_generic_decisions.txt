@@ -1,0 +1,105 @@
+FRA_generic_decisions = { 
+	debug_set_oob_all_generic = {
+		cost = 50
+		complete_effect = {
+			every_country = {
+				load_oob = "GENERIC"
+			}
+		}
+	}
+
+	get_wargoal_on_neighbors = {
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = ROOT
+			}
+		}
+		cost = 50
+		complete_effect = {
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+	}
+
+	spawn_division_infantry = {
+		visible = {
+            has_manpower > 0
+        }
+		cost = 50
+		complete_effect = {
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = ROOT
+				} 
+			}
+			add_manpower = -500
+		}
+	}
+
+	spawn_division_infantry_w_artillery = {
+		visible = {
+            has_manpower > 0
+        }
+		cost = 50
+		complete_effect = {
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division with Artillery\" division_template = \"Infantry Division with Artillery\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = ROOT
+				} 
+			}
+			add_manpower = -500
+		}
+	}
+
+	spawn_division_cavalry = {
+		visible = {
+            has_manpower > 0
+        }
+		cost = 50
+		complete_effect = {
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Cavalry Division\" division_template = \"Cavalry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = ROOT
+				} 
+			}
+			add_manpower = -500
+		}
+	}
+
+	spawn_division_motorized = {
+		visible = {
+            has_manpower > 0
+        }
+		cost = 50
+		complete_effect = {
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Motorized Division\" division_template = \"Motorized Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = ROOT
+				} 
+			}
+			add_manpower = -500
+		}
+	}
+
+	spawn_division_armor = {
+		visible = {
+            has_manpower > 0
+        }
+		cost = 50
+		complete_effect = {
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Armor Division\" division_template = \"Armor Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = ROOT
+				} 
+			}
+			add_manpower = -500
+		}
+	}
+}

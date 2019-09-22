@@ -3,13 +3,14 @@ state={
 	name="STATE_537"
 
 	history={
-		owner = C25
-		add_core_of = C25
+		owner = BRG
+		add_core_of = BRG
 	}
 	
 	provinces={
 		878 1272 2550 2742 6737 6761 6783 6790 6797 6819 6835 6864 6877 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

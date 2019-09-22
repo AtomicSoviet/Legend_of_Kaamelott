@@ -1,0 +1,349 @@
+﻿add_namespace = K_debug
+
+country_event = { # Fall of Provincia Brittania
+	id = K_debug.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event K_debug.1" }
+ 	title = K_debug.1.t
+ 	desc = K_debug.1.desc
+ 	
+	is_triggered_only = yes
+ 	
+ 	option = {
+ 		name = K_debug.1.a
+
+ 		LGR = {
+ 			add_political_power = 100
+ 			annex_country = {
+			    target = BRI
+			    transfer_troops = yes
+			}
+ 		}
+
+ 		C27 = {
+ 			set_state_owner = 284
+ 			add_state_core = 284
+ 			set_state_controller = 284
+ 		}
+
+ 		K01 = {
+ 			set_state_owner = 309
+ 			add_state_core = 309
+ 			set_state_controller = 309
+ 		}
+ 		K02 = {
+ 			set_state_owner = 311
+ 			add_state_core = 311
+ 			set_state_controller = 311
+ 		}
+ 		K03 = {
+ 			set_state_owner = 296
+ 			add_state_core = 296
+ 			set_state_controller = 296
+ 		}
+ 		K04 = {
+ 			set_state_owner = 294
+ 			add_state_core = 294
+ 			set_state_controller = 294
+ 		}
+ 		K05 = {
+ 			set_state_owner = 300
+ 			add_state_core = 300
+ 			set_state_controller = 300
+ 		}
+ 		K06 = {
+ 			set_state_owner = 299
+ 			add_state_core = 299
+ 			set_state_controller = 299
+ 		}
+ 		K07 = {
+ 			set_state_owner = 293
+ 			add_state_core = 293
+ 			set_state_controller = 293
+ 		}
+ 		K08 = {
+ 			set_state_owner = 283
+ 			add_state_core = 283
+ 			set_state_controller = 283
+ 		}
+ 		K09 = {
+ 			set_state_owner = 262
+ 			add_state_core = 262
+ 			set_state_controller = 262
+ 		}
+ 		K10 = {
+ 			set_state_owner = 260
+ 			add_state_core = 260
+ 			set_state_controller = 260
+ 		}
+ 		K11 = {
+ 			set_state_owner = 265
+ 			add_state_core = 265
+ 			set_state_controller = 265
+ 		}
+ 		K12 = {
+ 			set_state_owner = 271
+ 			add_state_core = 271
+ 			set_state_controller = 271
+ 		}
+ 		K13 = {
+ 			set_state_owner = 275
+ 			add_state_core = 275
+ 			set_state_controller = 275
+ 		}
+ 		K14 = {
+ 			set_state_owner = 256
+ 			add_state_core = 256
+ 			set_state_controller = 256
+ 		}
+ 		K15 = {
+ 			set_state_owner = 249
+ 			add_state_core = 249
+ 			set_state_controller = 249
+ 		}
+ 		K16 = {
+ 			set_state_owner = 241
+ 			add_state_core = 241
+ 			set_state_controller = 241
+ 		}
+ 		K17 = {
+ 			set_state_owner = 245
+ 			add_state_core = 245
+ 			set_state_controller = 245
+ 		}
+ 		K18 = {
+ 			set_state_owner = 226
+ 			add_state_core = 226
+ 			set_state_controller = 226
+ 		}
+ 		K19 = {
+ 			set_state_owner = 237
+ 			add_state_core = 237
+ 			set_state_controller = 237
+ 		}
+ 		K20 = {
+ 			set_state_owner = 206
+ 			add_state_core = 206
+ 			set_state_controller = 206
+ 		}
+ 		K21 = {
+ 			set_state_owner = 229
+ 			add_state_core = 229
+ 			set_state_controller = 229
+ 		}
+ 		K22 = {
+ 			set_state_owner = 224
+ 			set_state_owner = 225
+ 			add_state_core = 224
+ 			add_state_core = 225
+ 			set_state_controller = 224
+ 			set_state_controller = 225
+ 		}
+ 		K23 = {
+ 			set_state_owner = 201
+ 			add_state_core = 201
+ 			set_state_controller = 201
+ 		}
+ 		K24 = {
+ 			set_state_owner = 189
+ 			set_state_owner = 196
+ 			add_state_core = 189
+ 			add_state_core = 196
+ 			set_state_controller = 189
+ 			set_state_controller = 196
+ 		}
+ 		K25 = {
+ 			set_state_owner = 214
+ 			set_state_owner = 191
+ 			set_state_owner = 182
+ 			add_state_core = 214
+ 			add_state_core = 191
+ 			add_state_core = 182
+ 			set_state_controller = 214
+ 			set_state_controller = 191
+ 			set_state_controller = 182
+ 		}
+ 		K26 = {
+ 			set_state_owner = 177
+ 			add_state_core = 177
+ 			set_state_controller = 177
+ 		}
+ 		K27 = {
+ 			set_state_owner = 195
+ 			add_state_core = 195
+ 			set_state_controller = 195
+ 		}
+ 		K28 = {
+ 			set_state_owner = 205
+ 			add_state_core = 205
+ 			set_state_controller = 205
+ 		}
+ 		K29 = {
+ 			set_state_owner = 215
+ 			add_state_core = 215
+ 			set_state_controller = 215
+ 		}
+ 		K30 = {
+ 			set_state_owner = 220
+ 			add_state_core = 220
+ 			set_state_controller = 220
+ 		}
+ 		K31 = {
+ 			set_state_owner = 221
+ 			add_state_core = 221
+ 			set_state_controller = 221
+ 		}
+ 		K32 = {
+ 			set_state_owner = 244
+ 			add_state_core = 244
+ 			set_state_controller = 244
+ 		}
+ 		K33 = {
+ 			set_state_owner = 223
+ 			add_state_core = 223
+ 			set_state_controller = 223
+ 		}
+ 		K34 = {
+ 			set_state_owner = 227
+ 			add_state_core = 227
+ 			set_state_controller = 227
+ 		}
+ 		K35 = {
+ 			set_state_owner = 192
+ 			add_state_core = 192
+ 			set_state_controller = 192
+ 		}
+ 		K36 = {
+ 			set_state_owner = 212
+ 			set_state_owner = 198
+ 			add_state_core = 212
+ 			add_state_core = 198
+ 			set_state_controller = 212
+ 			set_state_controller = 198
+ 		}
+ 		K37 = {
+ 			set_state_owner = 188
+ 			add_state_core = 188
+ 			set_state_controller = 188
+ 		}
+ 		K38 = {
+ 			set_state_owner = 197
+ 			add_state_core = 197
+ 			set_state_controller = 197
+ 		}
+ 		K39 = {
+ 			set_state_owner = 178
+ 			add_state_core = 178
+ 			set_state_controller = 178
+ 		}
+ 		K40 = {
+ 			set_state_owner = 160
+ 			add_state_core = 160
+ 			set_state_controller = 160
+ 		}
+ 		K41 = {
+ 			set_state_owner = 170
+ 			add_state_core = 170
+ 			set_state_controller = 170
+ 		}
+ 		K42 = {
+ 			set_state_owner = 165
+ 			set_state_owner = 147
+ 			add_state_core = 165
+ 			add_state_core = 147
+ 			set_state_controller = 165
+ 			set_state_controller = 147
+ 		}
+ 		K43 = {
+ 			set_state_owner = 162
+ 			set_state_owner = 167
+ 			add_state_core = 162
+ 			add_state_core = 167
+ 			set_state_controller = 162
+ 			set_state_controller = 167
+ 		}
+ 		K44 = {
+ 			set_state_owner = 185
+ 			set_state_owner = 179
+ 			add_state_core = 185
+ 			add_state_core = 179
+ 			set_state_controller = 185
+ 			set_state_controller = 179
+ 		}
+ 		K45 = {
+ 			set_state_owner = 171
+ 			set_state_owner = 156
+ 			add_state_core = 171
+ 			add_state_core = 156
+ 			set_state_controller = 171
+ 			set_state_controller = 156
+ 		}
+ 		K46 = {
+ 			set_state_owner = 152
+ 			set_state_owner = 159
+ 			add_state_core = 152
+ 			add_state_core = 159
+ 			set_state_controller = 152
+ 			set_state_controller = 159
+ 		}
+ 		K47 = {
+ 			set_state_owner = 143
+ 			set_state_owner = 154
+ 			add_state_core = 143
+ 			add_state_core = 154
+ 			set_state_controller = 143
+ 			set_state_controller = 154
+ 		}
+ 		K48 = {
+ 			set_state_owner = 135
+ 			set_state_owner = 150
+ 			add_state_core = 135
+ 			add_state_core = 150
+ 			set_state_controller = 135
+ 			set_state_controller = 150
+ 		}
+ 		K49 = {
+ 			set_state_owner = 153
+ 			add_state_core = 153
+ 			set_state_controller = 153
+ 		}
+ 		K50 = {
+ 			set_state_owner = 124
+ 			set_state_owner = 144
+ 			add_state_core = 124
+ 			add_state_core = 144
+ 			set_state_controller = 124
+ 			set_state_controller = 144
+ 		}
+ 		K51 = {
+ 			set_state_owner = 117
+ 			add_state_core = 117
+ 			set_state_controller = 117
+ 		}
+ 		K52 = {
+ 			set_state_owner = 132
+ 			add_state_core = 132
+ 			set_state_controller = 132
+ 		}
+ 		K53 = {
+ 			set_state_owner = 121
+ 			set_state_owner = 123
+ 			set_state_owner = 131
+ 			add_state_core = 121
+ 			add_state_core = 123
+ 			add_state_core = 131
+ 			set_state_controller = 121
+ 			set_state_controller = 123
+ 			set_state_controller = 131
+ 		}
+ 		K54 = {
+ 			set_state_owner = 139
+ 			add_state_core = 139
+ 			set_state_controller = 139
+ 		}
+ 		K55 = {
+ 			set_state_owner = 138
+ 			add_state_core = 138
+ 			set_state_controller = 138
+ 		}
+ 	}
+}

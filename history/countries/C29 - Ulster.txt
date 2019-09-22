@@ -1,0 +1,32 @@
+﻿capital = 88
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "C29_455"
+
+  set_politics = {
+    ruling_party = clanic
+  }
+
+  set_popularities = {
+    roman = 0
+    barbarian = 22
+    clanic = 56
+    kingdom = 22
+  }
+
+  create_country_leader = {
+  	name = "MacGahnn"
+  	desc = ""
+  	picture = "Portrait_C29_Ewan.dds"
+  	expire = "999.1.1"
+  	ideology = despotic
+  	traits = {
+  	}
+  }
+}

@@ -1,9 +1,16 @@
 state={
 	id=113
 	name="STATE_113"
+
+	history={
+		owner = VIK
+		add_core_of = VIK
+	}
+	
 	provinces={
 		2145 2537 3688 5123 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

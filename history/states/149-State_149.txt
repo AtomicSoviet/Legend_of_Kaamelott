@@ -1,9 +1,16 @@
 state={
 	id=149
 	name="STATE_149"
+
+	history={
+		owner = C32
+		add_core_of = C32
+	}
+
 	provinces={
 		75 762 1062 1501 1978 2072 2092 2144 2372 2850 5285 5300 5309 5330 5331 5345 5346 5351 5355 5370 5371 5382 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

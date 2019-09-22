@@ -1,9 +1,16 @@
 state={
 	id=321
 	name="STATE_321"
+
+	history={
+		owner = FRK
+		add_core_of = FRK
+	}
+	
 	provinces={
 		1320 1467 5901 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

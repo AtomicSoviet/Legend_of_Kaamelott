@@ -1,9 +1,16 @@
 state={
 	id=447
 	name="STATE_447"
+
+	history={
+		owner = ALE
+		add_core_of = ALE
+	}
+	
 	provinces={
 		438 1439 1460 6210 6240 6269 6288 
 	}
-	manpower=0
+	manpower=10000
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

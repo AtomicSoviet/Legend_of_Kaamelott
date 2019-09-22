@@ -1,0 +1,32 @@
+﻿capital = 3
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+455.1.1 = {
+  set_convoys = 25
+  OOB = "LUS_455"
+
+  set_politics = {
+    ruling_party = barbarian
+  }
+
+  set_popularities = {
+    roman = 5
+    barbarian = 65
+    clanic = 0
+    kingdom = 30
+  }
+
+  create_country_leader = {
+  	name = "Lusitanian Leader"
+  	desc = ""
+  	picture = "Portrait_VND_Genseric.dds"
+  	expire = "999.1.1"
+  	ideology = mediteranean
+  	traits = {
+  	}
+  }
+}
