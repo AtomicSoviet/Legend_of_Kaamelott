@@ -10,7 +10,7 @@ focus_tree = {
 	default = yes
 	focus = {
 		id = LGR_the_return_of_the_king
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_pious_kingdom
 		cost = 10
 		x = 15
 		y = 0
@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LGR_the_wedding
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_arthur_guenievre_wedding
 		cost = 10
 		prerequisite = {
 			focus = LGR_the_return_of_the_king
@@ -45,7 +45,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LGR_the_sword
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_excalibur
 		cost = 10
 		prerequisite = {
 			focus = LGR_the_return_of_the_king
@@ -56,7 +56,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LGR_sir_arthur_king_of_the_britons
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_arthur_king_britons
 		cost = 10
 		prerequisite = {
 			focus = LGR_the_wedding
