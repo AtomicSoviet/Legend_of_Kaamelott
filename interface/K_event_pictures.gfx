@@ -1,0 +1,72 @@
+spriteTypes = {
+	######################################################################################################
+	# GENERIC
+	######################################################################################################
+
+	spriteType = {
+		name = "GFX_report_event_generic_catapult_study"
+		texturefile = "gfx/event_pictures/report_event_generic_catapult_study.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_generic_catapults"
+		texturefile = "gfx/event_pictures/report_event_generic_catapults.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_generic_food"
+		texturefile = "gfx/event_pictures/report_event_generic_food.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_generic_peasants"
+		texturefile = "gfx/event_pictures/report_event_generic_peasants.dds"
+	}
+
+	######################################################################################################
+	# AQT
+	######################################################################################################
+
+	spriteType = {
+		name = "GFX_report_event_AQT_the_duke"
+		texturefile = "gfx/event_pictures/report_event_AQT_the_duke.dds"
+	}
+
+	######################################################################################################
+	# LGR
+	######################################################################################################
+
+	spriteType = {
+		name = "GFX_report_event_LGR_arthur_concerned"
+		texturefile = "gfx/event_pictures/report_event_LGR_arthur_concerned.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_LGR_arthur_leodagan"
+		texturefile = "gfx/event_pictures/report_event_LGR_arthur_leodagan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_LGR_high_command"
+		texturefile = "gfx/event_pictures/report_event_LGR_high_command.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_LGR_lancelot_white_knight"
+		texturefile = "gfx/event_pictures/report_event_LGR_lancelot_white_knight.dds"
+	}
+
+	######################################################################################################
+	# SPQ
+	######################################################################################################
+
+	spriteType = {
+		name = "GFX_report_event_SPQ_arthurus"
+		texturefile = "gfx/event_pictures/report_event_SPQ_arthurus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_SPQ_rome"
+		texturefile = "gfx/event_pictures/report_event_SPQ_rome.dds"
+	}
+}

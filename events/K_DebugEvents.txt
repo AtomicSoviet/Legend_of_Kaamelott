@@ -5,6 +5,7 @@ country_event = { # Fall of Provincia Brittania
 	immediate = { log = "[GetDateText]: [Root.GetName]: Event K_debug.1" }
  	title = K_debug.1.t
  	desc = K_debug.1.desc
+ 	picture = GFX_report_event_LGR_arthur_concerned
  	
 	is_triggered_only = yes
  	
