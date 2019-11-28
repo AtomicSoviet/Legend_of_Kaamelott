@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRI_adrian_wall_patrols
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_build_defenses
 		cost = 10
 		prerequisite = {
 			focus = BRI_another_year_another_struggle
@@ -29,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRI_adapt_our_military_tactics
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_army_tactics
 		cost = 10
 		prerequisite = {
 			focus = BRI_adrian_wall_patrols
@@ -40,7 +40,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRI_continue_the_garrisons
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_misc_romanisation
 		cost = 10
 		prerequisite = {
 			focus = BRI_adrian_wall_patrols
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRI_monitor_the_clans
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_misc_deal_warlord
 		cost = 10
 		prerequisite = {
 			focus = BRI_another_year_another_struggle
@@ -84,7 +84,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRI_trade_deals_with_the_welsh
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_misc_trade_routes
 		cost = 10
 		prerequisite = {
 			focus = BRI_monitor_the_clans
@@ -123,7 +123,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRI_carmeliard_defensives
-		icon = GFX_goal_unknown
+		icon = GFX_focus_K_generic_build_castle
 		cost = 10
 		prerequisite = {
 			focus = BRI_monitor_the_clans
