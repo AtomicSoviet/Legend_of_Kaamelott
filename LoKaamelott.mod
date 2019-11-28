@@ -1,12 +1,10 @@
 ﻿name="The Legend of Kaamelott"
 path="mod/Legend_of_Kaamelott/"
-
 tags={
 	"Alternative History"
 	"Graphics"
 	"Gameplay"
 }
-
 replace_path = "common/ai_focuses"
 replace_path = "common/ai_strategy"
 replace_path = "common/ai_strategy_plans"
@@ -20,8 +18,6 @@ replace_path = "history/states"
 replace_path = "history/units"
 replace_path = "map/strategicregions"
 replace_path = "map/supplyareas"
-
-#Added by MisterJay
 replace_path = "common/units/names"
 replace_path = "common/units/names_divisions"
 replace_path = "common/units/names_ships"
@@ -32,4 +28,4 @@ replace_path = "common/achievements"
 replace_path = "events"
 
 picture="legend_of_kaamelott.png"
-supported_version="1.7.*"
+supported_version="1.8.x"
