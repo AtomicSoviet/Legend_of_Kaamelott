@@ -1,6 +1,6 @@
 FRA_generic_decisions = { 
 	debug_set_oob_all_generic = {
-		cost = 50
+		cost = 0
 		complete_effect = {
 			every_country = {
 				load_oob = "GENERIC"

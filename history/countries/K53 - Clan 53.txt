@@ -21,9 +21,9 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Clan 53 Leader"
-  	desc = ""
-  	picture = ""
+  	name = "Hithier"
+  	desc = "HITHIER_DESC"
+  	picture = "Portrait_K53_Hithier.dds"
   	expire = "999.1.1"
   	ideology = despotic
   	traits = {

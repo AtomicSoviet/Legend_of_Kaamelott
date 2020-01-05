@@ -1,0 +1,241 @@
+focus_tree = {
+	id = caledonia_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CLD
+		}
+	}
+	default = no
+	focus = {
+		id = CLD_king_of_the_north
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = CLD_the_return_of_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 18
+		y = 0
+
+	}
+	focus = {
+		id = CLD_organize_the_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_king_of_the_north
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = CLD_give_autonomy_to_our_generals
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_organize_the_troops
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = CLD_train_more_warriors
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_organize_the_troops
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = CLD_a_confederation_of_villages
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_king_of_the_north
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = CLD_meet_with_eideard
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_a_confederation_of_villages
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = CLD_carmeliard_trade
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_king_of_the_north
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = CLD_reunite_the_caledonian_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_king_of_the_north
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = CLD_bring_in_the_warrior
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_reunite_the_caledonian_council
+		}
+		prerequisite = {
+			focus = CLD_carmeliard_trade
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = CLD_convince_the_wise
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_reunite_the_caledonian_council
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = CLD_invite_the_old_man
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_reunite_the_caledonian_council
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = CLD_prepare_our_men
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_the_return_of_the_king
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = CLD_calogrenants_quest
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_the_return_of_the_king
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = CLD_leodagans_offer
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_the_return_of_the_king
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = CLD_find_other_knights
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_prepare_our_men
+		}
+		prerequisite = {
+			focus = CLD_calogrenants_quest
+		}
+		prerequisite = {
+			focus = CLD_leodagans_offer
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = CLD_go_back_to_our_clanic_roots
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_give_autonomy_to_our_generals
+		}
+		prerequisite = {
+			focus = CLD_train_more_warriors
+		}
+		prerequisite = {
+			focus = CLD_meet_with_eideard
+		}
+		mutually_exclusive = {
+			focus = CLD_follow_carmelides_exemple
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = CLD_follow_carmelides_exemple
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_bring_in_the_warrior
+		}
+		prerequisite = {
+			focus = CLD_convince_the_wise
+		}
+		prerequisite = {
+			focus = CLD_invite_the_old_man
+		}
+		mutually_exclusive = {
+			focus = CLD_go_back_to_our_clanic_roots
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = CLD_pledge_alliegiance_to_arthur
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLD_find_other_knights
+		}
+		x = 18
+		y = 3
+
+	}
+}

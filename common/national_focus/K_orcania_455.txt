@@ -1,0 +1,352 @@
+focus_tree = {
+	id = orcania_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ORC
+		}
+	}
+	default = yes
+	focus = {
+		id = ORC_ruling_the_frontier
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = ORC_the_return_of_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = ORC_the_orcanian_order
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_ruling_the_frontier
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = ORC_increase_taxes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_the_orcanian_order
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = ORC_control_the_presantry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_increase_taxes
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = ORC_listen_to_anna
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_ruling_the_frontier
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = ORC_plots_and_tribulations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_ruling_the_frontier
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = ORC_meeting_with_the_dukes_of_the_isles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_the_orcanian_order
+			focus = ORC_plots_and_tribulations
+		}
+		prerequisite = {
+			focus = ORC_listen_to_anna
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = ORC_demand_taxes_from_the_duke_of_leodhas
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_increase_taxes
+		}
+		prerequisite = {
+			focus = ORC_meeting_with_the_dukes_of_the_isles
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = ORC_get_galessin_of_yehll
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_meeting_with_the_dukes_of_the_isles
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = ORC_reshuffle_the_war_cabinet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_get_galessin_of_yehll
+		}
+		prerequisite = {
+			focus = ORC_demand_taxes_from_the_duke_of_leodhas
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = ORC_make_galessin_second_in_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_reshuffle_the_war_cabinet
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = ORC_securing_the_line_of_succession
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_plots_and_tribulations
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = ORC_the_problem_of_osmond
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_meeting_with_the_dukes_of_the_isles
+		}
+		prerequisite = {
+			focus = ORC_securing_the_line_of_succession
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = ORC_the_osmond_plot
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_the_problem_of_osmond
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = ORC_search_for_possible_siblings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_securing_the_line_of_succession
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = ORC_secure_our_descendants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_search_for_possible_siblings
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = ORC_a_clear_line
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_the_osmond_plot
+		}
+		prerequisite = {
+			focus = ORC_secure_our_descendants
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = ORC_answer_leodagan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_the_return_of_the_king
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = ORC_organize_our_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_answer_leodagan
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = ORC_galessins_quest
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_answer_leodagan
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = ORC_when_do_we_betray
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_organize_our_troops
+		}
+		prerequisite = {
+			focus = ORC_galessins_quest
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = ORC_the_throne_of_logres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_when_do_we_betray
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = ORC_the_last_days_of_hector
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_dispose_of_them
+		}
+		prerequisite = {
+			focus = ORC_make_galessin_second_in_command
+		}
+		prerequisite = {
+			focus = ORC_a_clear_line
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = ORC_encourage_the_leodhas_hearadh_rivalry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_demand_taxes_from_the_duke_of_leodhas
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = ORC_dispose_of_them
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_encourage_the_leodhas_hearadh_rivalry
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = ORC_stregthen_our_hold_of_the_mainland
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_control_the_presantry
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = ORC_make_peasant_leaders_disappear
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_stregthen_our_hold_of_the_mainland
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = ORC_clear_the_sky
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ORC_make_peasant_leaders_disappear
+		}
+		prerequisite = {
+			focus = ORC_dispose_of_them
+		}
+		x = 2
+		y = 6
+
+	}
+}

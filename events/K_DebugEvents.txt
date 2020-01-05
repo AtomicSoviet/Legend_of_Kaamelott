@@ -1,16 +1,16 @@
-﻿add_namespace = K_debug
+﻿add_namespace = K_DEBUG
 
-country_event = { # Fall of Provincia Brittania
-	id = K_debug.1
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event K_debug.1" }
- 	title = K_debug.1.t
- 	desc = K_debug.1.desc
+country_event = { # DEBUG : Fall of Provincia Brittania
+	id = K_DEBUG.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event K_DEBUG.1" }
+ 	title = K_DEBUG.1.t
+ 	desc = K_DEBUG.1.desc
  	picture = GFX_report_event_LGR_arthur_concerned
  	
 	is_triggered_only = yes
  	
  	option = {
- 		name = K_debug.1.a
+ 		name = K_DEBUG.1.a
 
  		LGR = {
  			add_political_power = 100
@@ -345,6 +345,39 @@ country_event = { # Fall of Provincia Brittania
  			set_state_owner = 138
  			add_state_core = 138
  			set_state_controller = 138
+ 		}
+ 	}
+}
+
+country_event = { # DEBUG : Give all nations an OOB
+	id = K_DEBUG.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event K_DEBUG.2" }
+ 	title = K_DEBUG.2.t
+ 	desc = K_DEBUG.2.desc
+ 	picture = GFX_report_event_LGR_high_command
+ 	
+	is_triggered_only = yes
+ 	
+ 	option = {
+ 		name = K_DEBUG.2.a
+
+ 		every_country = {
+ 			add_political_power = 100
+ 			load_oob = "GENERIC"
+ 			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 100000
+			}
+ 			every_owned_state = {
+ 				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = PREV
+				} 
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					owner = PREV
+				} 		
+ 			}
  		}
  	}
 }

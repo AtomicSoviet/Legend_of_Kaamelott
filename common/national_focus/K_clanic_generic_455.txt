@@ -1,0 +1,1858 @@
+focus_tree = {
+	id = clanic_generic_455
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = CLAN_organize_our_army
+		icon = GFX_focus_K_generic_army_logistics
+		cost = 10
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = CLAN_peasant_based_economy
+		icon = GFX_focus_K_generic_misc_farmer_help
+		cost = 10
+		mutually_exclusive = {
+			focus = CLAN_raid_based_economy
+		}
+		x = 18
+		y = 0
+
+	}
+	focus = {
+		id = CLAN_raid_based_economy
+		icon = GFX_focus_K_generic_misc_farmer_raid
+		cost = 10
+		mutually_exclusive = {
+			focus = CLAN_peasant_based_economy
+		}
+		x = 20
+		y = 0
+
+	}
+	focus = {
+		id = CLAN_religious_matters
+		icon = GFX_focus_K_generic_misc_pious_kingdom
+		cost = 10
+		x = 35
+		y = 0
+
+	}
+	focus = {
+		id = CLAN_pro_federation_stance
+		icon = GFX_focus_K_generic_misc_federation_pro
+		cost = 10
+		mutually_exclusive = {
+			focus = CLAN_anti_federation_stance
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = CLAN_anti_federation_stance
+		icon = GFX_focus_K_generic_misc_federation_con
+		cost = 10
+		mutually_exclusive = {
+			focus = CLAN_pro_federation_stance
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = CLAN_noble_bearings
+		icon = GFX_focus_K_generic_class_noble
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_our_army
+		}
+		mutually_exclusive = {
+			focus = CLAN_centralized_army
+			focus = CLAN_militias_and_bandits
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_scout_for_nobles
+		icon = GFX_focus_K_generic_misc_law_writing
+		cost = 10
+		prerequisite = {
+			focus = CLAN_noble_bearings
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_find_loyalists
+		icon = GFX_focus_K_generic_misc_deal_kingdom
+		cost = 10
+		prerequisite = {
+			focus = CLAN_scout_for_nobles
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_put_aside_the_uninterested
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_find_loyalists
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_get_the_funds_somewhere
+		icon = GFX_focus_K_generic_misc_tax_reform
+		cost = 10
+		prerequisite = {
+			focus = CLAN_noble_bearings
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_build_upon_the_feudal_system
+		icon = GFX_focus_K_generic_misc_traditionalism
+		cost = 10
+		prerequisite = {
+			focus = CLAN_get_the_funds_somewhere
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_centralized_army
+		icon = GFX_focus_K_generic_army_logistics
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_our_army
+		}
+		mutually_exclusive = {
+			focus = CLAN_noble_bearings
+			focus = CLAN_militias_and_bandits
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_workshops_and_stables
+		icon = GFX_focus_K_generic_build_forge
+		cost = 10
+		prerequisite = {
+			focus = CLAN_noble_bearings
+			focus = CLAN_centralized_army
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_military_training_grounds
+		icon = GFX_focus_K_generic_army_training
+		cost = 10
+		prerequisite = {
+			focus = CLAN_workshops_and_stables
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_tactical_fundamentals
+		icon = GFX_focus_K_generic_army_tactics
+		cost = 10
+		prerequisite = {
+			focus = CLAN_build_upon_the_feudal_system
+		}
+		prerequisite = {
+			focus = CLAN_military_training_grounds
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_our_proud_army
+		icon = GFX_focus_K_generic_misc_deal_warlord
+		cost = 10
+		prerequisite = {
+			focus = CLAN_put_aside_the_uninterested
+		}
+		prerequisite = {
+			focus = CLAN_tactical_fundamentals
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_train_peasants
+		icon = GFX_focus_K_generic_class_peasant
+		cost = 10
+		prerequisite = {
+			focus = CLAN_centralized_army
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_defense_programs
+		icon = GFX_focus_K_generic_build_defenses
+		cost = 10
+		prerequisite = {
+			focus = CLAN_train_peasants
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_clanic_army
+		icon = GFX_focus_K_generic_misc_deal_warlord
+		cost = 10
+		prerequisite = {
+			focus = CLAN_military_training_grounds
+		}
+		prerequisite = {
+			focus = CLAN_defense_programs
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_military_identity
+		icon = GFX_focus_K_generic_army_flag_bearer
+		cost = 10
+		prerequisite = {
+			focus = CLAN_tactical_fundamentals
+		}
+		prerequisite = {
+			focus = CLAN_clanic_army
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_signs_and_codes
+		icon = GFX_focus_K_generic_army_codes
+		cost = 10
+		prerequisite = {
+			focus = CLAN_clanic_army
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_a_plea_to_arthur
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pro_federation_stance
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_create_communiucation_routes_to_logres
+		icon = GFX_focus_K_generic_build_road
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pro_federation_stance
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_clan_wars_organization
+		icon = GFX_focus_K_generic_army_logistics
+		cost = 10
+		prerequisite = {
+			focus = CLAN_create_communiucation_routes_to_logres
+		}
+		prerequisite = {
+			focus = CLAN_a_plea_to_arthur
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_weapon_trading
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_clan_wars_organization
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_knowledge_sharing
+		icon = GFX_focus_K_generic_build_school
+		cost = 10
+		prerequisite = {
+			focus = CLAN_weapon_trading
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_militias_and_bandits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_our_army
+		}
+		mutually_exclusive = {
+			focus = CLAN_centralized_army
+			focus = CLAN_noble_bearings
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_decentralized_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_militias_and_bandits
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_a_way_to_get_money
+		icon = GFX_focus_K_generic_misc_money_full
+		cost = 10
+		prerequisite = {
+			focus = CLAN_decentralized_command
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_hit_the_trade_routes
+		icon = GFX_focus_K_generic_misc_trade_routes
+		cost = 10
+		prerequisite = {
+			focus = CLAN_a_way_to_get_money
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_organize_raids
+		icon = GFX_focus_K_generic_misc_banditry
+		cost = 10
+		prerequisite = {
+			focus = CLAN_militias_and_bandits
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_hire_bandits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_raids
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_hit_the_neighboring_clans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_hire_bandits
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_our_fearless_army
+		icon = GFX_focus_K_generic_misc_traditionalism
+		cost = 10
+		prerequisite = {
+			focus = CLAN_hit_the_trade_routes
+		}
+		prerequisite = {
+			focus = CLAN_hit_the_neighboring_clans
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_reorganize_our_leadership
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pro_federation_stance
+			focus = CLAN_anti_federation_stance
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_define_a_clear_structure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_reorganize_our_leadership
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_our_code_of_conduct
+		icon = GFX_focus_K_generic_misc_law_writing
+		cost = 10
+		prerequisite = {
+			focus = CLAN_define_a_clear_structure
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_eliminate_those_against_us
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_reorganize_our_leadership
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_reward_those_who_follows_us
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_eliminate_those_against_us
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_pandragonic_legacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_our_code_of_conduct
+		}
+		prerequisite = {
+			focus = CLAN_reward_those_who_follows_us
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_cultural_differences
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_peasant_based_economy
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_find_our_specialties
+		icon = GFX_focus_K_generic_resource_food
+		cost = 10
+		prerequisite = {
+			focus = CLAN_cultural_differences
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_back_to_basics
+		icon = GFX_focus_K_generic_resource_field
+		cost = 10
+		prerequisite = {
+			focus = CLAN_find_our_specialties
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_fund_construction_workshops
+		icon = GFX_focus_K_generic_build_forge
+		cost = 10
+		prerequisite = {
+			focus = CLAN_back_to_basics
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_farming_incentives
+		icon = GFX_focus_K_generic_misc_farmer_help
+		cost = 10
+		prerequisite = {
+			focus = CLAN_peasant_based_economy
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_feed_our_people
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_farming_incentives
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_focus_on_development
+		icon = GFX_focus_K_generic_build_planning
+		cost = 10
+		prerequisite = {
+			focus = CLAN_find_our_specialties
+		}
+		prerequisite = {
+			focus = CLAN_feed_our_people
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_refine_construction_methods
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_focus_on_development
+		}
+		prerequisite = {
+			focus = CLAN_back_to_basics
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_improve_roads
+		icon = GFX_focus_K_generic_build_road
+		cost = 10
+		prerequisite = {
+			focus = CLAN_focus_on_development
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_better_communications
+		icon = GFX_focus_K_generic_misc_transport_message
+		cost = 10
+		prerequisite = {
+			focus = CLAN_improve_roads
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_look_outwards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_anti_federation_stance
+			focus = CLAN_pro_federation_stance
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_recognize_the_danger
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_look_outwards
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_organize_our_raids
+		icon = GFX_focus_K_generic_misc_banditry
+		cost = 10
+		prerequisite = {
+			focus = CLAN_raid_based_economy
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_recognize_the_targets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_our_raids
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_basic_farming_practices
+		icon = GFX_focus_K_generic_resource_field
+		cost = 10
+		prerequisite = {
+			focus = CLAN_raid_based_economy
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_craft_our_weapons
+		icon = GFX_focus_K_generic_build_forge
+		cost = 10
+		prerequisite = {
+			focus = CLAN_basic_farming_practices
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_dont_attack_our_peasants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_recognize_the_targets
+		}
+		prerequisite = {
+			focus = CLAN_craft_our_weapons
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_demand_loyalty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_dont_attack_our_peasants
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_clanic_feudalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_dont_attack_our_peasants
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_extend_our_workshops
+		icon = GFX_focus_K_generic_build_forge
+		cost = 10
+		prerequisite = {
+			focus = CLAN_craft_our_weapons
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_get_the_ressources
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_extend_our_workshops
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_build_barracks
+		icon = GFX_focus_K_generic_build_barracks
+		cost = 10
+		prerequisite = {
+			focus = CLAN_clanic_feudalism
+		}
+		prerequisite = {
+			focus = CLAN_get_the_ressources
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_farms_are_overrated
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_build_barracks
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = CLAN_local_trade
+		icon = GFX_focus_K_generic_misc_political_isolation
+		cost = 10
+		prerequisite = {
+			focus = CLAN_anti_federation_stance
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_denounce_reformism
+		icon = GFX_focus_K_generic_misc_traditionalism
+		cost = 10
+		prerequisite = {
+			focus = CLAN_anti_federation_stance
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_funnel_money
+		icon = GFX_focus_K_generic_misc_money_full
+		cost = 10
+		prerequisite = {
+			focus = CLAN_denounce_reformism
+		}
+		prerequisite = {
+			focus = CLAN_local_trade
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_tax_the_peasantry
+		icon = GFX_focus_K_generic_misc_tax_reform
+		cost = 10
+		prerequisite = {
+			focus = CLAN_denounce_reformism
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_empower_local_nobles
+		icon = GFX_focus_K_generic_class_noble
+		cost = 10
+		prerequisite = {
+			focus = CLAN_tax_the_peasantry
+		}
+		prerequisite = {
+			focus = CLAN_funnel_money
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_druidic_traditions
+		icon = GFX_focus_K_generic_religion_druidism
+		cost = 10
+		prerequisite = {
+			focus = CLAN_religious_matters
+		}
+		mutually_exclusive = {
+			focus = CLAN_the_new_light
+			focus = CLAN_old_gods
+		}
+		x = 30
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_nature_centered_communities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_druidic_traditions
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_promote_small_villages
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_nature_centered_communities
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_increase_defenses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_anti_federation_stance
+		}
+		x = 29
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_study_arthurian_tactics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_increase_defenses
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_briton_authoritarianism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_tax_the_peasantry
+		}
+		prerequisite = {
+			focus = CLAN_study_arthurian_tactics
+		}
+		x = 28
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_set_the_exemple
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_briton_authoritarianism
+		}
+		x = 29
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_improve_local_self_sustainability
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_briton_authoritarianism
+		}
+		x = 27
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_trust_the_druids
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_druidic_traditions
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_the_new_light
+		icon = GFX_focus_K_generic_religion_christianity
+		cost = 10
+		prerequisite = {
+			focus = CLAN_religious_matters
+		}
+		mutually_exclusive = {
+			focus = CLAN_druidic_traditions
+			focus = CLAN_old_gods
+		}
+		x = 35
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_construct_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_the_new_light
+			focus = CLAN_druidic_traditions
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_teach_herbalism
+		icon = GFX_focus_K_generic_research_herbalism
+		cost = 10
+		prerequisite = {
+			focus = CLAN_trust_the_druids
+		}
+		prerequisite = {
+			focus = CLAN_construct_schools
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_town_druids
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_promote_small_villages
+		}
+		prerequisite = {
+			focus = CLAN_teach_herbalism
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_basic_education
+		icon = GFX_focus_K_generic_build_school
+		cost = 10
+		prerequisite = {
+			focus = CLAN_construct_schools
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_improve_literacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_basic_education
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_renovate_the_old
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_the_new_light
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_new_churches
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_renovate_the_old
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_new_priests
+		icon = GFX_focus_K_generic_class_priest
+		cost = 10
+		prerequisite = {
+			focus = CLAN_new_churches
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_the_common_language
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_the_new_light
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_teaching_latin_to_the_nobles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_the_common_language
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_monthly_mass
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_teaching_latin_to_the_nobles
+		}
+		prerequisite = {
+			focus = CLAN_new_churches
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_old_gods
+		icon = GFX_focus_K_generic_religion_celtic
+		cost = 10
+		prerequisite = {
+			focus = CLAN_religious_matters
+		}
+		mutually_exclusive = {
+			focus = CLAN_the_new_light
+			focus = CLAN_druidic_traditions
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = CLAN_organize_ceremonies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_the_new_light
+			focus = CLAN_old_gods
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_festivities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_ceremonies
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_fairs_and_markets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_festivities
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_christianism_with_briton_characteristics
+		icon = GFX_focus_K_generic_misc_pious_kingdom
+		cost = 10
+		prerequisite = {
+			focus = CLAN_improve_literacy
+		}
+		prerequisite = {
+			focus = CLAN_new_priests
+		}
+		prerequisite = {
+			focus = CLAN_monthly_mass
+		}
+		prerequisite = {
+			focus = CLAN_fairs_and_markets
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_pray_the_gods
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_old_gods
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_celtic_roots
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pray_the_gods
+		}
+		prerequisite = {
+			focus = CLAN_organize_ceremonies
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_the_celtic_codes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_celtic_roots
+		}
+		x = 40
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_our_free_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_military_identity
+		}
+		prerequisite = {
+			focus = CLAN_signs_and_codes
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = CLAN_improve_housing_conditions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_refine_construction_methods
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_organize_farmers_markets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_improve_housing_conditions
+		}
+		prerequisite = {
+			focus = CLAN_better_communications
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = CLAN_build_fortifications
+		icon = GFX_focus_K_generic_build_defenses
+		cost = 10
+		prerequisite = {
+			focus = CLAN_fund_construction_workshops
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_from_villages_to_towns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_build_fortifications
+		}
+		prerequisite = {
+			focus = CLAN_improve_housing_conditions
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = CLAN_a_well_rounded_clan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_farmers_markets
+		}
+		prerequisite = {
+			focus = CLAN_from_villages_to_towns
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = CLAN_aggressive_taxation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_demand_loyalty
+		}
+		prerequisite = {
+			focus = CLAN_clanic_feudalism
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_farmers_are_overrated
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_aggressive_taxation
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = CLAN_our_own_way_of_life
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_farmers_are_overrated
+		}
+		prerequisite = {
+			focus = CLAN_farms_are_overrated
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = CLAN_traditional_communities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_old_gods
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = CLAN_stregthen_higher_castes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_traditional_communities
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = CLAN_druidic_medicine
+		icon = GFX_focus_K_generic_research_medicine
+		cost = 10
+		prerequisite = {
+			focus = CLAN_teach_herbalism
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_focus_the_lordship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_stregthen_higher_castes
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = CLAN_brittonic_faith
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_fairs_and_markets
+		}
+		prerequisite = {
+			focus = CLAN_the_celtic_codes
+		}
+		prerequisite = {
+			focus = CLAN_focus_the_lordship
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_one_with_nature
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_improve_literacy
+		}
+		prerequisite = {
+			focus = CLAN_town_druids
+		}
+		prerequisite = {
+			focus = CLAN_druidic_medicine
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = CLAN_our_place_in_the_new_order
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pro_federation_stance
+			focus = CLAN_anti_federation_stance
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_prepare_our_defenses
+		icon = GFX_focus_K_generic_build_fortress
+		cost = 10
+		prerequisite = {
+			focus = CLAN_our_place_in_the_new_order
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_train_our_militias
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_our_place_in_the_new_order
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_standardize_banners
+		icon = GFX_focus_K_generic_army_flag_bearer
+		cost = 10
+		prerequisite = {
+			focus = CLAN_create_communiucation_routes_to_logres
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_on_the_war_path
+		icon = GFX_focus_K_generic_army_war_declaration
+		cost = 10
+		prerequisite = {
+			focus = CLAN_funds_for_our_troops
+		}
+		prerequisite = {
+			focus = CLAN_and_find_our_allies
+		}
+		x = 19
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_and_find_our_allies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_recognize_the_danger
+		}
+		prerequisite = {
+			focus = CLAN_the_autonomy_of_our_clan
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_the_autonomy_of_our_clan
+		icon = GFX_focus_K_generic_misc_political_isolation
+		cost = 10
+		prerequisite = {
+			focus = CLAN_look_outwards
+		}
+		x = 21
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_funds_for_our_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_train_our_militias
+		}
+		prerequisite = {
+			focus = CLAN_recognize_the_danger
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_build_military_infrastructure
+		icon = GFX_focus_K_generic_build_barracks
+		cost = 10
+		prerequisite = {
+			focus = CLAN_prepare_our_defenses
+		}
+		prerequisite = {
+			focus = CLAN_train_our_militias
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_train_our_troops
+		icon = focus_K_generic_army_training
+		cost = 10
+		prerequisite = {
+			focus = CLAN_build_military_infrastructure
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_build_defensive_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_reward_those_who_follows_us
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_invest_in_ballistics
+		icon = GFX_focus_K_generic_army_weapon_trebuchet
+		cost = 10
+		prerequisite = {
+			focus = CLAN_build_defensive_infrastructure
+		}
+		mutually_exclusive = {
+			focus = CLAN_trust_the_cavalry
+		}
+		x = 14
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_trust_the_cavalry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_train_our_troops
+		}
+		mutually_exclusive = {
+			focus = CLAN_invest_in_ballistics
+		}
+		x = 16
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_our_immediate_neighbors
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_on_the_war_path
+		}
+		prerequisite = {
+			focus = CLAN_train_our_troops
+		}
+		x = 19
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_align_ourselves_with_logres
+		icon = GFX_focus_K_generic_diplo_LGR
+		cost = 10
+		prerequisite = {
+			focus = CLAN_our_code_of_conduct
+		}
+		prerequisite = {
+			focus = CLAN_and_our_military_code
+		}
+		x = 9
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_lessons_from_the_first_clan_wars
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pandragonic_legacy
+		}
+		prerequisite = {
+			focus = CLAN_build_defensive_infrastructure
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_and_our_military_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_standardize_banners
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_military_exchanges
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_and_find_our_allies
+		}
+		x = 21
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_against_bigger_threats
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_our_immediate_neighbors
+		}
+		x = 19
+		y = 15
+
+	}
+	focus = {
+		id = CLAN_expand_our_high_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_invest_in_ballistics
+			focus = CLAN_trust_the_cavalry
+		}
+		x = 15
+		y = 15
+
+	}
+	focus = {
+		id = CLAN_officialize_standard_language
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_arthurian_style_clanic_rule
+			focus = CLAN_a_plea_to_arthur
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_arthurian_style_clanic_rule
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_pro_federation_stance
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = CLAN_organize_peasant_reforms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_arthurian_style_clanic_rule
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_reconsider_traditional_values
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_organize_peasant_reforms
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_adopt_common_currency
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_officialize_standard_language
+		}
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_trade_deals_with_the_kingdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_adopt_common_currency
+		}
+		x = 5
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_allow_briton_garrisons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_trade_deals_with_the_kingdom
+		}
+		prerequisite = {
+			focus = CLAN_embrace_briton_identity
+		}
+		x = 5
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_centralized_joint_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_knowledge_sharing
+		}
+		prerequisite = {
+			focus = CLAN_align_ourselves_with_logres
+		}
+		x = 7
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_federated_duchy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_allow_briton_garrisons
+		}
+		prerequisite = {
+			focus = CLAN_centralized_joint_command
+		}
+		mutually_exclusive = {
+			focus = CLAN_integrated_clan
+		}
+		x = 5
+		y = 15
+
+	}
+	focus = {
+		id = CLAN_integrated_clan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_centralized_joint_command
+		}
+		mutually_exclusive = {
+			focus = CLAN_federated_duchy
+		}
+		x = 7
+		y = 15
+
+	}
+	focus = {
+		id = CLAN_embrace_briton_identity
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_reconsider_traditional_values
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_war_against_logres
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_secure_local_power
+		}
+		prerequisite = {
+			focus = CLAN_defy_arthurs_rule
+		}
+		x = 23
+		y = 16
+
+	}
+	focus = {
+		id = CLAN_defy_arthurs_rule
+		icon = GFX_focus_K_generic_army_war_declaration
+		cost = 10
+		prerequisite = {
+			focus = CLAN_defiant_miltias
+		}
+		prerequisite = {
+			focus = CLAN_the_rule_of_the_despot
+		}
+		x = 24
+		y = 15
+
+	}
+	focus = {
+		id = CLAN_secure_local_power
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_defiant_miltias
+		}
+		x = 22
+		y = 15
+
+	}
+	focus = {
+		id = CLAN_defiant_miltias
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_military_exchanges
+		}
+		prerequisite = {
+			focus = CLAN_build_more_workshops
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = CLAN_our_fidel_cabinet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_empower_local_nobles
+		}
+		prerequisite = {
+			focus = CLAN_build_more_workshops
+		}
+		x = 25
+		y = 13
+
+	}
+	focus = {
+		id = CLAN_build_more_workshops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_import_resources
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = CLAN_import_resources
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_local_trade
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = CLAN_the_rule_of_the_despot
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = CLAN_our_fidel_cabinet
+		}
+		prerequisite = {
+			focus = CLAN_improve_local_self_sustainability
+		}
+		prerequisite = {
+			focus = CLAN_set_the_exemple
+		}
+		x = 27
+		y = 14
+
+	}
+}

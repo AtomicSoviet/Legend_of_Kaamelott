@@ -21,9 +21,9 @@ set_technology = {
   }
 
   create_country_leader = {
-  	name = "Clan 26 Leader"
+  	name = "Yann de Kaerwood"
   	desc = ""
-  	picture = ""
+  	picture = "Portrait_K26_Yann.dds"
   	expire = "999.1.1"
   	ideology = despotic
   	traits = {
