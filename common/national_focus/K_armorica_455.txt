@@ -1,0 +1,27 @@
+focus_tree = {
+	id = armorica_455
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BRT
+		}
+	}
+	default = no
+	focus = {
+		id = BRT_the_rebel_brother
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = BRT_return_of_the_pendragon
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 11
+		y = 0
+
+	}
+}
