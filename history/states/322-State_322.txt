@@ -5,6 +5,8 @@ state={
 	history={
 		owner = TTG
 		add_core_of = TTG
+
+		victory_points = { 944 2 }
 	}
 
 	provinces={

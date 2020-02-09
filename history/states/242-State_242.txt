@@ -5,6 +5,8 @@ state={
 	history={
 		owner = GAL
 		add_core_of = GAL
+
+		victory_points = { 861 2 }
 	}
 	
 	provinces={

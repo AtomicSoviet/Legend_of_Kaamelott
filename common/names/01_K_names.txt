@@ -10,7 +10,7 @@
 		surnames = { }
 		callsigns = { }
 	}
-	surnames = { "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "l'Aveugle" "le Brave" "le Juste" "le Sanguinaire" "le Cruel" }
+	surnames = { "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "l'Admirable" "l'Agéable" "l'Aveugle" "l'Amusant" "le Banal" "le Bon" "le Brave" "le Caractériel" "le Convenable" "le Coquet" "le Cruel" "le Cynique" "le Disjoncté" "le Doué" "le Doux" "l'Éblouissant" "l'Ébouriffé" "l'Efficace" "l'Emballant" "l'Ennuyant" "l'Enragé" "l'Équitable" "l'Exceptionnel" "le Festif" "le Flamboyant" "le Formidable" "le Gentillet" "le Grandiose" "le Hardi" "l'Honnête" "l'Horrible" "l'Inconnu" "l'Irrésistible" "le Juste" "le Louable" "le Majestueux" "le Magistral" "le Magnifique" "le Médiocre" "le Mortel" "le Mou" "le Nul" "l'Ordinaire" "le Parfait" "le Passionant" "le Percutant" "le Persévérant" "le Placide" "le Prestant" "le Prodigieux" "le Proverbial" "le Quelconque" "le Ravissant" "le Remarquable" "le Rutilant" "le Saint" "le Sanguinaire" "le Spiritueux" "le Splendide" "le Sympatique" "le Talentueux" "le Tolérable" "le Tragique" "le Trépidant" "le Valereux" "le Vénérable" "le Vulgaire" }
 	callsigns = { }
 }
 

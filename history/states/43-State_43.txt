@@ -5,6 +5,8 @@ state={
 	history={
 		owner = VIK
 		add_core_of = VIK
+
+		victory_points = { 5120 2 }
 	}
 	
 	provinces={
