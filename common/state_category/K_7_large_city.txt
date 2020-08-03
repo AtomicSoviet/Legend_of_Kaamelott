@@ -1,0 +1,8 @@
+state_categories={
+	K_7_large_city = {
+		local_building_slots = 9
+	
+		color = { 255 0 0 }
+
+	}
+}

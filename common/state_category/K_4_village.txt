@@ -1,0 +1,8 @@
+state_categories={
+	K_4_village = {
+		local_building_slots = 4
+	
+		color = { 0 255 33 }
+
+	}
+}

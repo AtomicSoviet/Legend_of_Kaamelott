@@ -1,0 +1,6 @@
+K_debug_decisions_economy = {
+	visible_when_empty = yes
+	allowed = {
+		always = yes
+	}
+}

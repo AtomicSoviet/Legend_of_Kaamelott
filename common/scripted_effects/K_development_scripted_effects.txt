@@ -1,0 +1,111 @@
+###################################################################################################################
+
+ ##### #   # ##### ##### #####  ###  #     #####  ####  ###  ##### #####  ###  #   #
+   #   ##  #   #     #     #   #   # #       #   #     #   #   #     #   #   # ##  #
+   #   # # #   #     #     #   ##### #       #    ###  #####   #     #   #   # # # #
+   #   #  ##   #     #     #   #   # #       #       # #   #   #     #   #   # #  ##
+ ##### #   # #####   #   ##### #   # ##### ##### ####  #   #   #   #####  ###  #   #
+
+###################################################################################################################
+
+K_development_initialize = {
+	every_state = {
+		set_temp_variable = { s_temp_tot_number_of_pops = s_pops^0 }
+		add_to_temp_variable = { s_temp_tot_number_of_pops = s_pops^1 }
+		add_to_temp_variable = { s_temp_tot_number_of_pops = s_pops^2 }
+
+		if = {
+			limit = {
+				check_variable = { s_temp_tot_number_of_pops < 1 } # 0 
+			}
+			set_state_category = K_0_inhospitable
+		}
+
+		else = {
+			if = {
+				limit = {
+					check_variable = { s_temp_tot_number_of_pops < 2 }  # 1
+				}
+				set_state_category = K_1_unsettled
+			}
+
+			else = {
+				if = {
+					limit = {
+						check_variable = { s_temp_tot_number_of_pops < 4 }  # 2-3
+					}
+					set_state_category = K_2_pastoral
+				}
+
+				else = {
+					if = {
+						limit = {
+							check_variable = { s_temp_tot_number_of_pops < 7 }  # 4-6
+						}
+						set_state_category = K_3_rural
+					}
+
+					else = {
+						if = {
+							limit = {
+								check_variable = { s_temp_tot_number_of_pops < 10 }  # 7-9
+							}
+							set_state_category = K_4_village
+						}
+
+						else = {
+							if = {
+								limit = {
+									check_variable = { s_temp_tot_number_of_pops < 25 } # 10-24
+								}
+								set_state_category = K_5_town
+							}
+
+							else = {
+								if = {
+									limit = {
+										check_variable = { s_temp_tot_number_of_pops < 50 }  # 25-49
+									}
+									set_state_category = K_6_city
+								}
+
+								else = {
+									if = {
+										limit = {
+											check_variable = { s_temp_tot_number_of_pops < 100 } # 50-99
+										}
+										set_state_category = K_7_large_city
+									}
+
+									else = {
+										if = {
+											limit = {
+												OR = {
+													check_variable = { s_temp_tot_number_of_pops = 100 } # 100
+													check_variable = { s_temp_tot_number_of_pops > 100 } # 100+
+												}
+											}
+											set_state_category = K_8_metropolis
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+###################################################################################################################
+
+  ####  ###  #   # ####  #   # #####  ###  ##### #####  ###  #   #  ####
+ #     #   # ## ## #   # #   #   #   #   #   #     #   #   # ##  # #
+ #     #   # # # # ####  #   #   #   #####   #     #   #   # # # #  ###
+ #     #   # #   # #     #   #   #   #   #   #     #   #   # #  ##     #
+  ####  ###  #   # #      ###    #   #   #   #   #####  ###  #   # ####
+
+###################################################################################################################
+
+# boop

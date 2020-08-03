@@ -1,0 +1,3 @@
+﻿l_english:
+ K_debug_decisions_economy:0 "DEBUG ECONOMY"
+ K_debug_decisions_economy_desc:0 "Total Population : [?c_total_population] Thousands\nTotal Number of Pops : [?c_total_pop_number]\n\nNational Treasury : [?c_national_gold_reserve]\nNational Food Reserve : [?c_national_food_reserve]"

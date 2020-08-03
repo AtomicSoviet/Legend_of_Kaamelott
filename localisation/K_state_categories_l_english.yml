@@ -1,0 +1,12 @@
+﻿l_english:
+ K_0_inhospitable:0 "Inhospitable"
+ K_1_unsettled:0 "Unsettled"
+ K_2_pastoral:0 "Pastoral"
+ K_3_rural:0 "Rural"
+ K_4_village:0 "Village"
+ K_5_town:0 "Town"
+ K_6_city:0 "City"
+ K_7_large_city:0 "Large City"
+ K_8_metropolis:0 "Metropolis"
+
+ K_state_category_unknown:0 "§R!! Legacy Category !!§!"

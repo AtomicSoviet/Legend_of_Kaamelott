@@ -1,0 +1,8 @@
+state_categories={
+	K_8_metropolis = {
+		local_building_slots = 12
+	
+		color = { 255 0 220 }
+
+	}
+}

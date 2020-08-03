@@ -1,0 +1,8 @@
+state_categories={
+	K_1_unsettled = {
+		local_building_slots = 1
+	
+		color = { 87 0 127 }
+
+	}
+}

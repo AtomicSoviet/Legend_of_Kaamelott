@@ -1,0 +1,26 @@
+scripted_gui = {
+
+	K_scripted_gui_debug_state_miniscreen = {
+	
+		context_type = selected_state_context
+		
+		window_name = "K_state_debug_miniscreen"
+		
+		visible = {
+			ROOT = {
+				is_ai = no
+				has_global_flag = K_state_debug_screen_enabled
+			}
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+		
+		}
+
+	}
+
+}

@@ -1,0 +1,112 @@
+K_debug_decisions_economy = { 
+	K_debug_tick_s = {
+		cost = 0
+		complete_effect = {
+			every_country = {
+				K_economy_weekly_tick_calc = yes
+			}
+		}
+	}
+
+	K_debug_tick_c = {
+		cost = 0
+		complete_effect = {
+			
+		}
+	}
+
+	K_debug_show_state_miniscreen = {
+		cost = 0
+		complete_effect = {
+			set_global_flag = K_state_debug_screen_enabled
+		}
+	}
+
+	K_debug_stop_show_state_miniscreen = {
+		cost = 0
+		complete_effect = {
+			clr_global_flag = K_state_debug_screen_enabled
+		}
+	}
+
+	K_debug_make_every_state_inhospitable = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_0_inhospitable
+			}
+		}
+	}
+
+	K_debug_make_every_state_unsettled = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_1_unsettled
+			}
+		}
+	}
+
+	K_debug_make_every_state_pastoral = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_2_pastoral
+			}
+		}
+	}
+
+	K_debug_make_every_state_rural = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_3_rural
+			}
+		}
+	}
+
+	K_debug_make_every_state_village = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_4_village
+			}
+		}
+	}
+
+	K_debug_make_every_state_town = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_5_town
+			}
+		}
+	}
+
+	K_debug_make_every_state_city = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_6_city
+			}
+		}
+	}
+
+	K_debug_make_every_state_large_city = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_7_large_city
+			}
+		}
+	}
+
+	K_debug_make_every_state_metropolis = {
+		cost = 0
+		complete_effect = {
+			every_state = {
+				set_state_category = K_8_metropolis
+			}
+		}
+	}
+}

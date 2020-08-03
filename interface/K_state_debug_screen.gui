@@ -1,0 +1,106 @@
+guiTypes = {
+	containerWindowType = {
+		name = "K_state_debug_miniscreen"
+		position = {x=1250 y=170}
+		size = { width=250 height=250 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_BPT_areadef_conf_bg"
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_pops"
+			position = {x=14 y=6}
+			font = "hoi_18mbs"
+			text = "Pops = [?s_pops^0]|[?s_pops^1]|[?s_pops^2]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_development"
+			position = {x=14 y=26}
+			font = "hoi_18mbs"
+			text = "Development = [?s_development]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_productiontype"
+			position = {x=14 y=46}
+			font = "hoi_18mbs"
+			text = "ProdType = [?s_production_type]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_foodsurplus"
+			position = {x=14 y=66}
+			font = "hoi_18mbs"
+			text = "FoodSurplus = [?s_food_surplus]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_foodneed"
+			position = {x=14 y=86}
+			font = "hoi_18mbs"
+			text = "FoodNeed = [?s_food_need]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_localwealth"
+			position = {x=14 y=106}
+			font = "hoi_18mbs"
+			text = "LocalWealth = [?s_local_wealth]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_totalpopnb"
+			position = {x=14 y=126}
+			font = "hoi_18mbs"
+			text = "TotalPopNb = [?s_current_nb_pops]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_percentgrowth"
+			position = {x=14 y=146}
+			font = "hoi_18mbs"
+			text = "PercentGrowth = [?s_pop_missing_until_growth|%2]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "K_state_debug_statecategory"
+			position = {x=14 y=166}
+			font = "hoi_18mbs"
+			text = "StateCategory = [K_GetStateCategory]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+	}
+}

@@ -381,3 +381,21 @@ country_event = { # DEBUG : Give all nations an OOB
  		}
  	}
 }
+
+country_event = { # DEBUG : Initialize the economy
+	id = K_DEBUG.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event K_DEBUG.3" }
+ 	title = K_DEBUG.3.t
+ 	desc = K_DEBUG.3.desc
+ 	picture = GFX_report_event_LGR_high_command
+ 	
+	is_triggered_only = yes
+ 	
+ 	option = {
+ 		name = K_DEBUG.3.a
+
+ 		K_economy_initialize = yes
+		K_generate_init_pops = yes
+		K_development_initialize = yes
+ 	}
+}

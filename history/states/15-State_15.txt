@@ -1,6 +1,12 @@
 state={
 	id=15
 	name="STATE_15"
+
+	history={
+		owner = VIK
+		add_core_of = VIK
+	}
+	
 	provinces={
 		4231 
 	}

@@ -1,0 +1,8 @@
+state_categories={
+	K_0_inhospitable = {
+		local_building_slots = 0
+	
+		color = { 81 81 81 }
+
+	}
+}

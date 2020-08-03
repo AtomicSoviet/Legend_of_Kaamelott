@@ -29,4 +29,15 @@ set_technology = {
   	traits = {
   	}
   }
+
+  create_corps_commander = {
+    name = "Kahedin"
+    picture = "Portrait_BRT_Kahedin.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+  }
 }

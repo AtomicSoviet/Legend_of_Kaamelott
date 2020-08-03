@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			K_economy_initialize = yes
+		}
+	}
+
+	on_weekly_HNS = {
+		effect = {
+			every_country = {
+				K_economy_weekly_tick_calc = yes
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			K_economy_tick_c_calc = yes
+		}
+	}
+}

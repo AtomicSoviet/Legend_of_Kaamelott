@@ -1,0 +1,85 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = {
+	name = K_GetStateCategory
+	text = {
+		trigger = {
+			has_state_category = K_0_inhospitable
+		}
+		localization_key = K_0_inhospitable
+	}
+	text = {
+		trigger = {
+			has_state_category = K_1_unsettled
+		}
+		localization_key = K_1_unsettled
+	}
+	text = {
+		trigger = {
+			has_state_category = K_2_pastoral
+		}
+		localization_key = K_2_pastoral
+	}
+	text = {
+		trigger = {
+			has_state_category = K_3_rural
+		}
+		localization_key = K_3_rural
+	}
+	text = {
+		trigger = {
+			has_state_category = K_4_village
+		}
+		localization_key = K_4_village
+	}
+	text = {
+		trigger = {
+			has_state_category = K_5_town
+		}
+		localization_key = K_5_town
+	}
+	text = {
+		trigger = {
+			has_state_category = K_6_city
+		}
+		localization_key = K_6_city
+	}
+	text = {
+		trigger = {
+			has_state_category = K_7_large_city
+		}
+		localization_key = K_7_large_city
+	}
+	text = {
+		trigger = {
+			has_state_category = K_8_metropolis
+		}
+		localization_key = K_8_metropolis
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_state_category = K_0_inhospitable
+					has_state_category = K_1_unsettled
+					has_state_category = K_2_pastoral
+					has_state_category = K_3_rural
+					has_state_category = K_4_village
+					has_state_category = K_5_town
+					has_state_category = K_6_city
+					has_state_category = K_7_large_city
+					has_state_category = K_8_metropolis
+				}
+			}
+		}
+		localization_key = K_state_category_unknown
+	}
+}
